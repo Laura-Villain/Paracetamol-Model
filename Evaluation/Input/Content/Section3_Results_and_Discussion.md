@@ -1,11 +1,12 @@
-The PBPK model for COMPOUND was developed and verified with clinical pharmacokinetic data.
+The PBPK model for paracetamol was developed and verified with clinical pharmacokinetic data.
 
 The model was evaluated covering data from studies including in particular
 
-* ...
-* ...
+- IV administration equivalent dose range to 365 to 1460 mg 
+- oral administration equivalent dose range 300 mg to 1460 mg in the fasted state 
+- oral administration equivalent dose range 2000 mg fed state 
 
-The model quantifies ...
+The model quantifies hepatic metabolism via isoenzymes of Cytochrome P-450 (CYP), UGT1A1, and  SULT1A1.
 
 The next sections show:
 
