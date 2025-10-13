@@ -1,4 +1,4 @@
-# COMPOUND-Model
+# Paracetamol-Model
 Whole-body PBPK model for paracetamol.
 
 ## Repository files
