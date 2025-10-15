@@ -22,7 +22,7 @@ This is the result of the final parameter identification.
 | `Intestinal permeability (transcellular) ` |   0.002652 |cm/min |
 | `GFR Fraction` |       0.19          |     |
 | `Km UGT1A1` |       462.00          |  μmol/l    |
-| `Vmax UGT1A1` |     49.03            |  μmol/l/min    |
+| `Vmax UGT1A1` |     37.19            |  μmol/l/min    |
 | `Km SULT1A1` |       115.00          |  μmol/l    |
 | `Vmax SULT1A1` |     9.62            |  μmol/l/min    |
 | `Km CYP3A4` |       130.00          |  μM   |
