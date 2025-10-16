@@ -73,7 +73,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   configurationPlanFile <- file.path(reInputFolder, paste0(configurationPlanName, ".json"))
   
   #' Option to record the time require to run the workflow.
-  #' The timer will calculate calculation time form internal `Sys.time` function
+  #' The timer will calculate calculation time from internal `Sys.time` function
   recordWorkflowTime <- TRUE
   
   #' Set watermark that will appear in all generated plots
