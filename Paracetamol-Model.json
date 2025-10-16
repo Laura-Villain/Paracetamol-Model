@@ -1,5 +1,5 @@
 {
-  "Version": 80,
+  "Version": 79,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -2455,7 +2455,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV Inf 20 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Applications|IV Inf 20 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 120.0,
           "Unit": "min"
         }
@@ -2477,6 +2477,12 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
           ],
           "Processes": [
             {
@@ -2645,7 +2651,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV Inf 5 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Applications|IV Inf 5 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 120.0,
           "Unit": "min"
         }
@@ -2860,6 +2866,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Divoll_1982_Paracetamol_IV_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Divoll_1982_Paracetamol_IV_650 mg"
+        }
+      ],
       "Individual": "Elderly Divoll 1982",
       "Compounds": [
         {
@@ -3040,17 +3053,32 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV Inf 1000 mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Applications|IV Inf 1000 mg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Methoxyacetaminophen|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|NAPQI|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol_IV_1000mg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol Sul_IV_1000mg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol Glu_IV_1000mg"
+        }
       ],
       "Individual": "Male",
       "Compounds": [
@@ -3093,6 +3121,12 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
           ],
           "Processes": [
             {
@@ -3279,7 +3313,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Liukas_2011_Paracetamol_IV_1000mg",
-          "OriginText": "Paracetamol_Model_MG\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-14 12:08"
+          "OriginText": "Paracetamol-Model\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-16 13:23"
         }
       ]
     },
@@ -3335,7 +3369,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV Inf 12 mgkg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Applications|IV Inf 12 mgkg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.8,
           "Unit": "min"
         }
@@ -3357,6 +3391,12 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
           ],
           "Processes": [
             {
@@ -3429,6 +3469,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3534,48 +3575,55 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clements_1984_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Clements_1984_Paracetamol_PO_20 mgkg"
+        }
       ],
       "Individual": "Male",
       "Compounds": [
@@ -3708,252 +3756,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Clements_1984_Paracetamol_PO_20 mgkg",
-          "OriginText": "Paracetamol_Model_MG\nClements_1984_Paracetamol_PO_20 mgkg\n2025-10-14 12:07"
-        }
-      ]
-    },
-    {
-      "Name": "Clements_1984_Paracetamol_PO_5 mgkg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Clements_1984_Paracetamol_PO_5 mgkg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 8.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Paracetamol|Intestinal permeability (transcellular)",
-          "Value": 0.0024442147234,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Clements_1984_Paracetamol_PO_5 mgkg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO Inf 5 mgkg 2h",
-            "Formulations": [
-              {
-                "Name": "Dissolved",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Clements_1984_Paracetamol_PO_5 mgkg-Paracetamol-Measurement",
-              "X": "Clements_1984_Paracetamol_PO_5 mgkg|Time",
-              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|ObservedData|||Paracetamol|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Clements_1984_Paracetamol_PO_5 mgkg",
-          "OriginText": "Paracetamol_Model_MG\nClements_1984_Paracetamol_PO_5 mgkg\n2025-10-14 12:09"
+          "OriginText": "Paracetamol-Model\nClements_1984_Paracetamol_PO_20 mgkg\n2025-10-16 10:54"
         }
       ]
     },
@@ -4009,7 +3812,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4211,7 +4014,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 12 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 12 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4451,7 +4254,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4557,6 +4360,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4665,7 +4469,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 20 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 20 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4811,6 +4615,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4957,7 +4762,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -5175,7 +4980,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -5281,6 +5086,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5387,7 +5193,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -5493,6 +5299,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5599,13 +5406,14 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+        "Organism|Saliva|SalivaGland|Paracetamol|Concentration in container"
       ],
       "OutputMappings": [
         {
@@ -5745,7 +5553,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Souliman_2006_Paracetamol_PO_500 mg",
-          "OriginText": "Paracetamol_Model_MG\nSouliman_2006_Paracetamol_PO_500 mg\n2025-10-14 14:03"
+          "OriginText": "Paracetamol-Model\nSouliman_2006_Paracetamol_PO_500 mg\n2025-10-16 13:21"
         }
       ]
     },
@@ -5801,7 +5609,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 300 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 300 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -5907,6 +5715,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6014,7 +5823,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 1500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 1500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6134,6 +5943,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6252,7 +6062,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6372,6 +6182,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6489,7 +6300,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 2000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 2000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6604,6 +6415,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6710,7 +6522,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 325 mg|Capsule Albert 1974|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 325 mg|Capsule Albert 1974|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6816,6 +6628,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6922,7 +6735,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7028,6 +6841,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -7135,7 +6949,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 750 mg|Matrix as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 750 mg|Matrix as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7143,6 +6957,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
         "Organism|Lumen|Paracetamol|Fraction dissolved"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Linear",
+          "Path": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Organism|Lumen|Paracetamol|Fraction dissolved",
+          "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_Matrix"
+        }
       ],
       "Individual": "Male",
       "Compounds": [
@@ -7366,7 +7192,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 750 mg|RingCap as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 750 mg|RingCap as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7473,7 +7299,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -7609,7 +7435,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 750 mg|RingCap as table|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 750 mg|RingCap as table|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7716,7 +7542,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -7851,7 +7677,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -8064,7 +7890,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 325 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|PO 325 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -8291,6 +8117,251 @@
           },
           "Title": "Volak_2012_Paracetamol_PO_325 mg",
           "OriginText": "Paracetamol_Model_MG\nVolak_2012_Paracetamol_PO_325 mg\n2025-10-14 14:27"
+        }
+      ]
+    },
+    {
+      "Name": "Clements_1984_Paracetamol_PO_5 mgkg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Clements_1984_Paracetamol_PO_5 mgkg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 8.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Paracetamol|Intestinal permeability (transcellular)",
+          "Value": 0.0024442147234,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Clements_1984_Paracetamol_PO_5 mgkg"
+        }
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO Inf 5 mgkg 2h",
+            "Formulations": [
+              {
+                "Name": "Dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Clements_1984_Paracetamol_PO_5 mgkg-Paracetamol-Measurement",
+              "X": "Clements_1984_Paracetamol_PO_5 mgkg|Time",
+              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|ObservedData|||Paracetamol|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Clements_1984_Paracetamol_PO_5 mgkg",
+          "OriginText": "Paracetamol-Model\nClements_1984_Paracetamol_PO_5 mgkg\n2025-10-16 12:02"
         }
       ]
     }
@@ -12094,7 +12165,7 @@
             5.15
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14515,7 +14586,6 @@
       "Name": "Oral IR/ solution",
       "Classifiables": [
         "Clements_1984_Paracetamol_PO_20 mgkg",
-        "Clements_1984_Paracetamol_PO_5 mgkg",
         "Dalton_2001_Paracetamol_PO 650 mg",
         "Prescott_1980_Paracetamol_PO_12 mgkg",
         "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
@@ -14524,7 +14594,8 @@
         "Rawlins_1977_Paracetamol_PO_1000 mg",
         "Rawlins_1977_Paracetamol_PO_500 mg",
         "Souliman_2006_Paracetamol_PO_500 mg",
-        "Van der Veen_1994_Paracetamol_PO_300 mg"
+        "Van der Veen_1994_Paracetamol_PO_300 mg",
+        "Clements_1984_Paracetamol_PO_5 mgkg"
       ]
     },
     {
