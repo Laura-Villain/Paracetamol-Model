@@ -314,12 +314,26 @@
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Clements_1984_Paracetamol_PO_5 mgkg",
                                 "Color": "#228B22"
-                            },
+                            },  
                             {
                                 "Project": "Paracetamol",
                                 "Simulation": "Dalton_2001_Paracetamol_PO 650 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Dalton_2001_Paracetamol_PO 650 mg",
+                                "Color": "#228B22"
+                            },                        
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Divoll_1982_Paracetamol_PO_650 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Divoll_1982_Paracetamol_PO_650 mg",
+                                "Color": "#228B22"
+                            },
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
                                 "Color": "#228B22"
                             },
                             {
@@ -363,34 +377,14 @@
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van der Veen_1994_Paracetamol_PO_300 mg",
                                 "Color": "#228B22"
-                            },
-                            {
-                                "Project": "Paracetamol",
-                                "Simulation": "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
-                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
-                                "Color": "#228B22"
-                            },
-                            {
-                                "Project": "Paracetamol",
-                                "Simulation": "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
-                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
-                                "Color": "#228B22"
-                            }                                                                                                                                
+                            }                                                                                                
                         ]
                     },
                     {
                         "Caption": "Oral administration IR/Solution Fed",
                         "Symbol": "Diamond",
                         "OutputMappings": [
-                            {
-                                "Project": "Paracetamol",
-                                "Simulation": "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
-                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
-                                "Color": "#000036"
-                            },
+                            
                             {
                                 "Project": "Paracetamol",
                                 "Simulation": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg",
@@ -404,7 +398,14 @@
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Paintaud_1998_Paracetamol_PO_fed_1000 mg",
                                 "Color": "#000036"
-                            }                                                                                                                                      
+                            },
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
+                                "Color": "#000036"
+                            }                                                                                                                                        
                         ]
                     },
                     {
@@ -474,6 +475,42 @@
             "Project": "Paracetamol",
             "Name": "Paracetamol",
             "Type": "Compound",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Paracetamol",
+            "Name": "Capsule Albert 1974",
+            "Type": "Formulation",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Paracetamol",
+            "Name": "Dissolved",
+            "Type": "Formulation",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Paracetamol",
+            "Name": "Matrix as weibull",
+            "Type": "Formulation",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Paracetamol",
+            "Name": "RingCap as weibull",
+            "Type": "Formulation",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Paracetamol",
+            "Name": "RingCap as table",
+            "Type": "Formulation",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Paracetamol",
+            "Name": "Tablet Volak",
+            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],
