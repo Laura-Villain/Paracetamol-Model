@@ -192,7 +192,17 @@
             },
             {
                 "Project": "Paracetamol",
+                "Simulation": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Paracetamol",
                 "Simulation": "Van der Veen_1994_Paracetamol_PO_300 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Paracetamol",
+                "Simulation": "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
                 "SectionReference": "ct-profiles"
             },
             {
@@ -232,12 +242,12 @@
             },
             {
                 "Project": "Paracetamol",
-                "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
+                "Simulation": "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Paracetamol",
-                "Simulation": "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
+                "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
                 "SectionReference": "ct-profiles"
             }
 
