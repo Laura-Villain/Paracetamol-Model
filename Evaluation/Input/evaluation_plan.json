@@ -232,7 +232,7 @@
             },
             {
                 "Project": "Paracetamol",
-                "Simulation": "Volak_2012_Paracetamol_PO_325 mg",
+                "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
                 "SectionReference": "ct-profiles"
             },
             {
@@ -455,9 +455,9 @@
                             },
                             {
                                 "Project": "Paracetamol",
-                                "Simulation": "Volak_2012_Paracetamol_PO_325 mg",
+                                "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Volak_2012_Paracetamol_PO_325 mg",
+                                "ObservedData": "Volak_2013_Paracetamol_PO_325 mg",
                                 "Color": "#DDA0DD"
                             }                                                                                                                                      
                         ]
