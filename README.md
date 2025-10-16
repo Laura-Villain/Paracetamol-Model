@@ -8,7 +8,7 @@ This repository contains:
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation_plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
-The model was developed and evaluated for paracetamol using data from several clinical studies covering IV administration (equivalent dose range to 365 to 1460 mg) and oral administration (equivalent dose range 300 mg to 1460 mg in the fasted state or fed state). 
+The model was developed and evaluated for paracetamol using data from several clinical studies covering IV administration (equivalent dose range of 365 to 1460 mg) and oral administration (equivalent dose range 300 mg to 1460 mg in the fasted state or fed state). 
 
 The PK-Sim snapshot file contains simulations and the observed data of all clinical studies used for model development and evaluation.
 
