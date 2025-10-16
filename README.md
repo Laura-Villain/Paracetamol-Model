@@ -6,7 +6,7 @@ This repository contains:
 
 - a PK-Sim snapshot (*.json) file of the current whole-body PBPK model of paracetamol. The current model corresponds to a modified version of Mian et al [1].
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
-- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+- an evaluation plan (evaluation_plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
 The model was developed and evaluated for paracetamol using data from several clinical studies covering IV administration (equivalent dose range to 365 to 1460 mg) and oral administration (equivalent dose range 300 mg to 1460 mg in the fasted state or fed state). 
 
