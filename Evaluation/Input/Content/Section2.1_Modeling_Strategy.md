@@ -2,7 +2,7 @@ The general concept of building a PBPK model has previously been described by Ku
 
 The  applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available PK-Sim® Ontogeny Database Version 7.3 ([Schlender 2016](#main-references)) or otherwise referenced for the specific process.
 
-First, a base PBPK model for paracetamol was developed and evaluated for a healthy adult volunteers for IV administration and oral administration. The mean PBPK model was developed using a typical European male individual. The model was evaluated by comparing the pharmacokinetic simulation with observed in vivo plasma pharmacokinetic data taken from literature for paracetamol and its metabolites (paracetamol glucurunide and sulfate).
+First, a base PBPK model for paracetamol was developed and evaluated for a healthy adult volunteers for IV administration and oral administration. The mean PBPK model was developed using a typical European male individual. The model was evaluated by comparing the pharmacokinetic simulation with observed in vivo plasma pharmacokinetic data taken from literature for paracetamol and its metabolites (paracetamol glucuronide and sulfate).
 If needed, drug-specific parameters were refined in the healthy adult model by fitting the simulated plasma concentration–time curve to the observed data.
 
 Unknown parameters were identified using the Parameter Identification module provided in PK-Sim®. Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility.
