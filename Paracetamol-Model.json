@@ -1,5 +1,5 @@
 {
-  "Version": 79,
+  "Version": 80,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -88,101 +88,6 @@
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "UGT1A1",
-      "Category": "Healthy_OLD",
-      "Parameters": [
-        {
-          "Path": "Organism|Gonads|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0013585313175
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0788336933
-        },
-        {
-          "Path": "Organism|LargeIntestine|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|UGT1A1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.00027429805616
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|Stomach|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.016349892
-        },
-        {
-          "Path": "UGT1A1|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "UGT1A1|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "UGT1A1|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "UGT1A1"
-      }
     },
     {
       "Type": "Enzyme",
@@ -304,41 +209,6 @@
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
       "Ontogeny": {
         "Name": "CYP1A2"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP2C19",
-      "Category": "Healthy_OLD",
-      "Parameters": [
-        {
-          "Path": "CYP2C19|Reference concentration",
-          "Value": 0.76,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C19|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP2C19|t1/2 (liver)",
-          "Value": 1560.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
-          "Value": 1.0
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP2C19"
       }
     },
     {
@@ -799,60 +669,6 @@
         "CYP3A4|Human|Healthy",
         "UGT1A1|Human|Healthy",
         "CYP2C19|Human|Healthy"
-      ]
-    },
-    {
-      "Name": "Male_OLD",
-      "Seed": 104944165,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        }
-      },
-      "ExpressionProfiles": [
-        "SULT2A1|Human|Healthy",
-        "UGT1A1|Human|Healthy_OLD",
-        "CYP2E1|Human|Healthy",
-        "CYP1A2|Human|Healthy",
-        "CYP2C19|Human|Healthy_OLD",
-        "CYP2C9|Human|Healthy",
-        "CYP2D6|Human|Healthy",
-        "CYP3A4|Human|Healthy"
-      ]
-    },
-    {
-      "Name": "Elderly Divoll 1982_OLD",
-      "Seed": 1211463562,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 70.0,
-          "Unit": "year(s)"
-        }
-      },
-      "ExpressionProfiles": [
-        "SULT2A1|Human|Healthy",
-        "UGT1A1|Human|Healthy_OLD",
-        "CYP2E1|Human|Healthy",
-        "CYP1A2|Human|Healthy",
-        "CYP2C19|Human|Healthy_OLD",
-        "CYP2C9|Human|Healthy",
-        "CYP2D6|Human|Healthy",
-        "CYP3A4|Human|Healthy"
       ]
     }
   ],
@@ -2455,7 +2271,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV Inf 20 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV Inf 20 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 120.0,
           "Unit": "min"
         }
@@ -2651,7 +2467,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV Inf 5 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV Inf 5 mgkg 2h|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 120.0,
           "Unit": "min"
         }
@@ -3053,7 +2869,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV Inf 1000 mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV Inf 1000 mg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         }
@@ -3066,8 +2882,8 @@
       "OutputMappings": [
         {
           "Scaling": "Log",
-          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Liukas_2011_Paracetamol_IV_1000mg"
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol Glu_IV_1000mg"
         },
         {
           "Scaling": "Log",
@@ -3076,8 +2892,8 @@
         },
         {
           "Scaling": "Log",
-          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Liukas_2011_Paracetamol Glu_IV_1000mg"
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol_IV_1000mg"
         }
       ],
       "Individual": "Male",
@@ -3313,7 +3129,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Liukas_2011_Paracetamol_IV_1000mg",
-          "OriginText": "Paracetamol-Model\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-16 13:23"
+          "OriginText": "Paracetamol-Model\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-16 15:23"
         }
       ]
     },
@@ -3369,7 +3185,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|IV Inf 12 mgkg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|IV Inf 12 mgkg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.8,
           "Unit": "min"
         }
@@ -3519,6 +3335,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Prescott_1980_Paracetamol_IV_12 mgkg",
           "OriginText": "Paracetamol_Model_MG\nPrescott_1980_Paracetamol_IV_12 mgkg\n2025-10-14 12:08"
         }
       ]
@@ -3575,42 +3392,42 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|PO Inf 20 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO Inf 20 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -3756,7 +3573,252 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Clements_1984_Paracetamol_PO_20 mgkg",
-          "OriginText": "Paracetamol-Model\nClements_1984_Paracetamol_PO_20 mgkg\n2025-10-16 10:54"
+          "OriginText": "Paracetamol_Model_MG\nClements_1984_Paracetamol_PO_20 mgkg\n2025-10-14 12:07"
+        }
+      ]
+    },
+    {
+      "Name": "Clements_1984_Paracetamol_PO_5 mgkg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Clements_1984_Paracetamol_PO_5 mgkg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 8.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|PO Inf 5 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Paracetamol|Intestinal permeability (transcellular)",
+          "Value": 0.0024442147234,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Clements_1984_Paracetamol_PO_5 mgkg"
+        }
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO Inf 5 mgkg 2h",
+            "Formulations": [
+              {
+                "Name": "Dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Clements_1984_Paracetamol_PO_5 mgkg-Paracetamol-Measurement",
+              "X": "Clements_1984_Paracetamol_PO_5 mgkg|Time",
+              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|ObservedData|||Paracetamol|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Clements_1984_Paracetamol_PO_5 mgkg",
+          "OriginText": "Paracetamol_Model_MG\nClements_1984_Paracetamol_PO_5 mgkg\n2025-10-14 12:09"
         }
       ]
     },
@@ -3812,7 +3874,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4014,7 +4076,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 12 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 12 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4254,7 +4316,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4469,7 +4531,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 20 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 20 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4762,7 +4824,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 650 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4980,7 +5042,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -5193,7 +5255,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -5406,14 +5468,13 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-        "Organism|Saliva|SalivaGland|Paracetamol|Concentration in container"
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
       ],
       "OutputMappings": [
         {
@@ -5553,7 +5614,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Souliman_2006_Paracetamol_PO_500 mg",
-          "OriginText": "Paracetamol-Model\nSouliman_2006_Paracetamol_PO_500 mg\n2025-10-16 13:21"
+          "OriginText": "Paracetamol_Model_MG\nSouliman_2006_Paracetamol_PO_500 mg\n2025-10-14 14:03"
         }
       ]
     },
@@ -5609,7 +5670,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 300 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 300 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -5823,7 +5884,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 1500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 1500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6062,7 +6123,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6300,7 +6361,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 2000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 2000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6522,7 +6583,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 325 mg|Capsule Albert 1974|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 325 mg|Capsule Albert 1974|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6735,7 +6796,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6949,7 +7010,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 750 mg|Matrix as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 750 mg|Matrix as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7056,7 +7117,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -7192,7 +7253,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 750 mg|RingCap as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 750 mg|RingCap as weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7435,7 +7496,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 750 mg|RingCap as table|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 750 mg|RingCap as table|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7677,7 +7738,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -7700,6 +7761,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Divoll_1982_Paracetamol_PO_Tablet_650 mg"
+        }
       ],
       "Individual": "Elderly Divoll 1982",
       "Compounds": [
@@ -7837,12 +7905,12 @@
       ]
     },
     {
-      "Name": "Volak_2012_Paracetamol_PO_325 mg",
+      "Name": "Volak_2013_Paracetamol_PO_325 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Volak_2012_Paracetamol Sul_PO_325 mg",
-        "Volak_2012_Paracetamol_PO_325 mg",
-        "Volak_2012_Paracetamol Glu_PO_325 mg"
+        "Volak_2013_Paracetamol Sul_PO_325 mg",
+        "Volak_2013_Paracetamol_PO_325 mg",
+        "Volak_2013_Paracetamol Glu_PO_325 mg"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -7890,7 +7958,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 325 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 325 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7903,18 +7971,18 @@
       "OutputMappings": [
         {
           "Scaling": "Log",
-          "Path": "Volak_2012_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Volak_2012_Paracetamol_PO_325 mg"
+          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Volak_2013_Paracetamol_PO_325 mg"
         },
         {
           "Scaling": "Log",
-          "Path": "Volak_2012_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Volak_2012_Paracetamol Sul_PO_325 mg"
+          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Volak_2013_Paracetamol Sul_PO_325 mg"
         },
         {
           "Scaling": "Log",
-          "Path": "Volak_2012_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Volak_2012_Paracetamol Glu_PO_325 mg"
+          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Volak_2013_Paracetamol Glu_PO_325 mg"
         }
       ],
       "Individual": "Male",
@@ -8037,27 +8105,27 @@
           ],
           "Curves": [
             {
-              "Name": "Volak_2012_Paracetamol_PO_325 mg-Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Volak_2013_Paracetamol_PO_325 mg-Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Volak_2012_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "Y": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Volak_2012_Paracetamol_PO_325 mg-Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Volak_2013_Paracetamol_PO_325 mg-Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Volak_2012_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+              "Y": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2
               }
             },
             {
-              "Name": "Volak_2012_Paracetamol_PO_325 mg-Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Volak_2013_Paracetamol_PO_325 mg-Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Volak_2012_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+              "Y": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 3
@@ -8065,8 +8133,8 @@
             },
             {
               "Name": "Volak_2012_Paracetamol Sul_PO_325 mg-Paracetamol-Measurement",
-              "X": "Volak_2012_Paracetamol Sul_PO_325 mg|Time ",
-              "Y": "Volak_2012_Paracetamol Sul_PO_325 mg|ObservedData|||Paracetamol|Measurement",
+              "X": "Volak_2013_Paracetamol Sul_PO_325 mg|Time ",
+              "Y": "Volak_2013_Paracetamol Sul_PO_325 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 4,
@@ -8076,8 +8144,8 @@
             },
             {
               "Name": "Volak_2012_Paracetamol_PO_325 mg-Paracetamol-Measurement",
-              "X": "Volak_2012_Paracetamol_PO_325 mg|Time ",
-              "Y": "Volak_2012_Paracetamol_PO_325 mg|ObservedData|||Paracetamol|Measurement",
+              "X": "Volak_2013_Paracetamol_PO_325 mg|Time ",
+              "Y": "Volak_2013_Paracetamol_PO_325 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 5,
@@ -8087,8 +8155,8 @@
             },
             {
               "Name": "Volak_2012_Paracetamol Glu_PO_325 mg-Paracetamol-Measurement",
-              "X": "Volak_2012_Paracetamol Glu_PO_325 mg|Time ",
-              "Y": "Volak_2012_Paracetamol Glu_PO_325 mg|ObservedData|||Paracetamol|Measurement",
+              "X": "Volak_2013_Paracetamol Glu_PO_325 mg|Time ",
+              "Y": "Volak_2013_Paracetamol Glu_PO_325 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 6,
@@ -8117,251 +8185,6 @@
           },
           "Title": "Volak_2012_Paracetamol_PO_325 mg",
           "OriginText": "Paracetamol_Model_MG\nVolak_2012_Paracetamol_PO_325 mg\n2025-10-14 14:27"
-        }
-      ]
-    },
-    {
-      "Name": "Clements_1984_Paracetamol_PO_5 mgkg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Clements_1984_Paracetamol_PO_5 mgkg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 8.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO Inf 5 mgkg 2h|Dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Paracetamol|Intestinal permeability (transcellular)",
-          "Value": 0.0024442147234,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Clements_1984_Paracetamol_PO_5 mgkg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO Inf 5 mgkg 2h",
-            "Formulations": [
-              {
-                "Name": "Dissolved",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Clements_1984_Paracetamol_PO_5 mgkg-Paracetamol-Measurement",
-              "X": "Clements_1984_Paracetamol_PO_5 mgkg|Time",
-              "Y": "Clements_1984_Paracetamol_PO_5 mgkg|ObservedData|||Paracetamol|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Clements_1984_Paracetamol_PO_5 mgkg",
-          "OriginText": "Paracetamol-Model\nClements_1984_Paracetamol_PO_5 mgkg\n2025-10-16 12:02"
         }
       ]
     }
@@ -9581,1296 +9404,6 @@
       }
     },
     {
-      "Name": "Liukas 66y APAP",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_iv.xlsx.Liukas 2011 1g iv 60-70yr",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv 60-70yr",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "mean concentration  ",
-          "RelatedColumns": [
-            {
-              "Name": "SD ",
-              "QuantityInfo": {
-                "Path": "Liukas 66y APAP|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|SD "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 151.16
-              },
-              "Values": [
-                67.269516,
-                65.4802856,
-                42.4306564,
-                38.20227,
-                32.4150848,
-                24.5194969,
-                19.0846252,
-                18.116745,
-                16.4466057,
-                15.14875,
-                12.3867884,
-                10.2621059,
-                7.53575754,
-                6.962066,
-                6.004763,
-                3.78096724,
-                2.269132,
-                1.964574
-              ],
-              "Dimension": "Concentration (molar)",
-              "Unit": "µmol/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 66y APAP|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|mean concentration  "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            63.28261,
-            100.062843,
-            97.47353,
-            94.6361542,
-            89.9113541,
-            82.45038,
-            75.75681,
-            71.5804443,
-            65.9685059,
-            56.48849,
-            46.82919,
-            34.87166,
-            25.3082829,
-            19.07383,
-            14.501256,
-            8.345462,
-            4.76342964,
-            2.89726138
-          ],
-          "Dimension": "Concentration (molar)",
-          "Unit": "µmol/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "time ",
-        "QuantityInfo": {
-          "Path": "Liukas 66y APAP|time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.125,
-          0.25,
-          0.29,
-          0.329999983,
-          0.420000017,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 66y Sul",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_sulfate.xlsx.Liukas 2011 1g iv  65y",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_sulfate",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv  65y",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol sulfate",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Conc ",
-          "RelatedColumns": [
-            {
-              "Name": "Error ",
-              "QuantityInfo": {
-                "Path": "Liukas 66y Sul|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Error "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 231.226
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                0.243243,
-                0.418919,
-                0.554054,
-                0.608108,
-                0.675676,
-                0.608108,
-                0.648647964,
-                0.662162,
-                0.472973,
-                0.378378,
-                "NaN",
-                "NaN",
-                "NaN"
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 66y Sul|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Conc "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 231.226
-          },
-          "Values": [
-            1.0,
-            2.013514,
-            2.66216183,
-            3.216216,
-            4.189189,
-            5.148649,
-            5.581081,
-            5.716216,
-            5.540541,
-            4.918919,
-            4.216216,
-            3.635135,
-            2.41891885,
-            1.527027,
-            1.027027,
-            0.35135138,
-            0.243243188
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Liukas 66y Sul|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.25,
-          0.333333015,
-          0.416666985,
-          0.5,
-          0.75,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25,
-          18.25,
-          24.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 66y Glu",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_glucuronide.xlsx.Liukas 2011 1g iv 65y",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_glucuronide",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv 65y",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol glucuronide",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Conc ",
-          "RelatedColumns": [
-            {
-              "Name": "Error ",
-              "QuantityInfo": {
-                "Path": "Liukas 66y Glu|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Error "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 327.2867
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                0.75377,
-                1.35679,
-                0.678389966,
-                1.20603,
-                0.82915,
-                0.90453,
-                0.829145,
-                0.678392,
-                0.753769,
-                1.28140759
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 66y Glu|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Conc "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 327.2867
-          },
-          "Values": [
-            4.221106,
-            4.59799,
-            11.15578,
-            13.34171,
-            17.11055,
-            18.99497,
-            19.7487411,
-            18.69347,
-            16.28141,
-            14.39699,
-            9.798995,
-            6.256281,
-            4.296483,
-            1.58291507
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Liukas 66y Glu|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.291666985,
-          0.5,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25,
-          18.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 77y APAP",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_iv.xlsx.Liukas 2011 1g iv 70-80yr",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv 70-80yr",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "mean concentration  ",
-          "RelatedColumns": [
-            {
-              "Name": "SD ",
-              "QuantityInfo": {
-                "Path": "Liukas 77y APAP|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|SD "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 151.16
-              },
-              "Values": [
-                28.5336533,
-                33.06127,
-                38.2321434,
-                38.6064835,
-                37.6303139,
-                31.9027462,
-                26.42628,
-                23.9280548,
-                19.6843071,
-                16.48266,
-                17.5204811,
-                10.7369738,
-                9.640513,
-                7.804221,
-                6.74083757,
-                4.52789736,
-                2.76452112,
-                1.74811435
-              ],
-              "Dimension": "Concentration (molar)",
-              "Unit": "µmol/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 77y APAP|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|mean concentration  "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            55.2818222,
-            93.8489,
-            96.79148,
-            97.5905,
-            101.342941,
-            93.8647842,
-            86.29664,
-            80.17531,
-            73.75496,
-            63.3934631,
-            57.675972,
-            43.97195,
-            33.63522,
-            26.3462543,
-            20.30233,
-            12.5760784,
-            7.394019,
-            4.75959253
-          ],
-          "Dimension": "Concentration (molar)",
-          "Unit": "µmol/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "time ",
-        "QuantityInfo": {
-          "Path": "Liukas 77y APAP|time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.125,
-          0.15,
-          0.25,
-          0.29,
-          0.329999983,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 77y Glu",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_glucuronide.xlsx.Liukas 2011 1g iv  75y",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_glucuronide",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv  75y",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol glucuronide",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Conc ",
-          "RelatedColumns": [
-            {
-              "Name": "Error ",
-              "QuantityInfo": {
-                "Path": "Liukas 77y Glu|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Error "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 327.2867
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                1.65441,
-                2.16912,
-                2.38971,
-                2.72058988,
-                2.5735302,
-                2.83088,
-                2.27942,
-                2.02205586,
-                1.102942,
-                "NaN",
-                "NaN"
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 77y Glu|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Conc "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 327.2867
-          },
-          "Values": [
-            0.477941215,
-            1.102941,
-            1.801471,
-            3.676471,
-            7.794117,
-            10.55147,
-            12.61029,
-            16.47059,
-            18.34559,
-            19.85294,
-            19.4852886,
-            17.90441,
-            16.13971,
-            11.9852905,
-            8.235294,
-            5.69852924,
-            1.98529387,
-            0.698529363
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Liukas 77y Glu|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.291666985,
-          0.333333015,
-          0.416666985,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25,
-          18.25,
-          24.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 77y Sul",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_sulfate.xlsx.Liukas 2011 1g iv 75y",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_sulfate",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv 75y",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol sulfate",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Conc ",
-          "RelatedColumns": [
-            {
-              "Name": "Error ",
-              "QuantityInfo": {
-                "Path": "Liukas 77y Sul|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Error "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 231.226
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                0.432432,
-                0.540541,
-                0.594594,
-                0.621622,
-                0.716215968,
-                0.716215968,
-                0.702702,
-                0.635135,
-                0.621622,
-                0.513514,
-                0.364865,
-                0.243243,
-                "NaN",
-                "NaN"
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 77y Sul|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Conc "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 231.226
-          },
-          "Values": [
-            0.14864859,
-            1.067568,
-            1.608108,
-            2.162162,
-            2.864865,
-            3.513514,
-            4.8378377,
-            5.567567,
-            5.932433,
-            6.594594,
-            6.837838,
-            6.77027,
-            6.283784,
-            5.55405426,
-            4.824324,
-            3.445946,
-            2.283784,
-            1.47297311,
-            0.5,
-            0.1351351
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Liukas 77y Sul|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.125,
-          0.25,
-          0.291666985,
-          0.333333015,
-          0.416666985,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25,
-          18.25,
-          24.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 84 APAP",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_iv.xlsx.Liukas 2011 1g iv 80-90yr",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv 80-90yr",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "mean concentration  ",
-          "RelatedColumns": [
-            {
-              "Name": "SD ",
-              "QuantityInfo": {
-                "Path": "Liukas 84 APAP|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|SD "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 151.16
-              },
-              "Values": [
-                87.95866,
-                20.11888,
-                63.8709,
-                35.01617,
-                28.77854,
-                22.04558,
-                16.0643234,
-                16.9980488,
-                15.6837,
-                17.26575,
-                15.0899906,
-                8.350013,
-                9.218451,
-                7.97231436,
-                7.611286,
-                5.803473,
-                3.34785676,
-                2.8255558
-              ],
-              "Dimension": "Concentration (molar)",
-              "Unit": "µmol/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 84 APAP|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|mean concentration  "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            121.1511,
-            131.886749,
-            165.976456,
-            144.4562,
-            138.565491,
-            123.954758,
-            112.437157,
-            104.068542,
-            96.0373154,
-            82.24068,
-            65.4062,
-            50.61722,
-            37.3127823,
-            28.481081,
-            22.6448784,
-            13.4134693,
-            8.528248,
-            5.07363033
-          ],
-          "Dimension": "Concentration (molar)",
-          "Unit": "µmol/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "time ",
-        "QuantityInfo": {
-          "Path": "Liukas 84 APAP|time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.125,
-          0.15,
-          0.25,
-          0.3,
-          0.329999983,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 84 Glu",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_glucuronide.xlsx.Liukas 2011 1g iv  85y",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_glucuronide",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv  85y",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol glucuronide",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Conc ",
-          "RelatedColumns": [
-            {
-              "Name": "Error ",
-              "QuantityInfo": {
-                "Path": "Liukas 84 Glu|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Error "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 327.2867
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                1.323529,
-                1.250002,
-                2.05882,
-                1.91175985,
-                1.72794,
-                2.09558988,
-                1.61765,
-                2.5735302,
-                2.42647,
-                2.53675985,
-                2.38971,
-                2.64706,
-                1.911764,
-                0.882353,
-                0.625
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 84 Glu|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Conc "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 327.2867
-          },
-          "Values": [
-            1.176471,
-            2.279412,
-            3.051471,
-            3.419118,
-            4.301471,
-            5.625,
-            8.89705849,
-            13.125,
-            16.13971,
-            20.99265,
-            23.27206,
-            25.3308811,
-            25.69853,
-            23.7132416,
-            21.39706,
-            16.02941,
-            13.125,
-            8.639706,
-            3.382353,
-            1.61764693
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Liukas 84 Glu|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.125,
-          0.25,
-          0.291666985,
-          0.333333015,
-          0.416666985,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25,
-          18.25,
-          24.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Liukas 84y Sul",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "PK Data APAP_sulfate.xlsx.Liukas 2011 1g iv 85y",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "PK Data APAP_sulfate",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Liukas 2011 1g iv 85y",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol sulfate",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Conc ",
-          "RelatedColumns": [
-            {
-              "Name": "Error ",
-              "QuantityInfo": {
-                "Path": "Liukas 84y Sul|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Error "
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 231.226
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                0.54054,
-                0.594595,
-                0.486486,
-                0.662163,
-                0.621622,
-                0.729729,
-                0.918917954,
-                0.824325,
-                0.905405,
-                0.810811,
-                0.945944965,
-                0.554054,
-                0.216216192,
-                "NaN"
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Liukas 84y Sul|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Conc "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 231.226
-          },
-          "Values": [
-            0.108108096,
-            0.4864865,
-            2.17567587,
-            2.986486,
-            3.85135078,
-            5.040541,
-            5.932433,
-            7.027027,
-            7.68918943,
-            8.662162,
-            8.689189,
-            8.540541,
-            8.10810852,
-            7.189189,
-            6.391892,
-            4.58108139,
-            3.513514,
-            2.216216,
-            0.7837838,
-            0.418918878
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Liukas 84y Sul|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0,
-          0.125,
-          0.25,
-          0.291666985,
-          0.333333015,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.75,
-          2.25,
-          3.25,
-          4.25,
-          5.25,
-          6.25,
-          8.25,
-          10.25,
-          12.25,
-          18.25,
-          24.25
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Rawlins_1977_Paracetamol_IV_1000 mg",
       "ExtendedProperties": [
         {
@@ -11871,222 +10404,6 @@
       }
     },
     {
-      "Name": "UNKNOWN_Paracetamol_PO_1500 mg",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "UNKNOWN",
-          "Type": "String"
-        },
-        {
-          "Name": "Dose",
-          "Value": "1500",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO",
-          "Type": "String"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "UNKNOWN",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "UNKNOWN_Paracetamol_PO_1500 mg|ObservedData|||Paracetamol|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "GeometricStdDev",
-                "MolWeight": 151.16
-              },
-              "Values": [
-                "NaN",
-                6.95475,
-                4.316704,
-                3.83624,
-                2.877854,
-                2.639315,
-                1.918336,
-                "NaN",
-                "NaN",
-                "NaN"
-              ],
-              "Dimension": "Dimensionless"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "UNKNOWN_Paracetamol_PO_1500 mg|ObservedData|||Paracetamol|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            0.0,
-            16.5,
-            15.6799994,
-            12.64,
-            11.78,
-            10.33,
-            8.96,
-            6.78,
-            5.04999971,
-            3.59
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "UNKNOWN_Paracetamol_PO_1500 mg|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0,
-          0.25,
-          0.5,
-          0.75,
-          1.0,
-          1.5,
-          2.0,
-          3.0,
-          4.0,
-          5.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "UNKNOWN_Paracetamol_PO_1000 mg",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "UNKNOWN",
-          "Type": "String"
-        },
-        {
-          "Name": "Dose",
-          "Value": "1000",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO",
-          "Type": "String"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "UNKNOWN",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "UNKNOWN_Paracetamol_PO_1000 mg|ObservedData|||Paracetamol|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "GeometricStdDev",
-                "MolWeight": 151.16
-              },
-              "Values": [
-                3732.58374,
-                2740.2312,
-                2297.765,
-                2086.40649,
-                1994.26917,
-                1177.34741,
-                937.9574,
-                1432.96838,
-                1302.3844,
-                1112.03784
-              ],
-              "Dimension": "Dimensionless"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "UNKNOWN_Paracetamol_PO_1000 mg|ObservedData|||Paracetamol|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            2.5093,
-            3.0319,
-            3.6066,
-            4.1152,
-            5.2206,
-            5.3982,
-            5.8659,
-            4.7465,
-            3.5594,
-            2.6706
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "UNKNOWN_Paracetamol_PO_1000 mg|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.25,
-          0.5,
-          0.75,
-          1.0,
-          1.5,
-          2.0,
-          3.0,
-          4.0,
-          5.0,
-          6.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg",
       "ExtendedProperties": [
         {
@@ -12165,7 +10482,7 @@
             5.15
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -13954,7 +12271,7 @@
       }
     },
     {
-      "Name": "Volak_2012_Paracetamol_PO_325 mg",
+      "Name": "Volak_2013_Paracetamol_PO_325 mg",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -13989,7 +12306,7 @@
             {
               "Name": "SD ",
               "QuantityInfo": {
-                "Path": "Volak_2012_Paracetamol_PO_325 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Volak_2013_Paracetamol_PO_325 mg|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -14013,7 +12330,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Volak_2012_Paracetamol_PO_325 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Volak_2013_Paracetamol_PO_325 mg|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -14039,7 +12356,7 @@
       "BaseGrid": {
         "Name": "Time ",
         "QuantityInfo": {
-          "Path": "Volak_2012_Paracetamol_PO_325 mg|Time ",
+          "Path": "Volak_2013_Paracetamol_PO_325 mg|Time ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -14063,7 +12380,7 @@
       }
     },
     {
-      "Name": "Volak_2012_Paracetamol Glu_PO_325 mg",
+      "Name": "Volak_2013_Paracetamol Glu_PO_325 mg",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -14098,7 +12415,7 @@
             {
               "Name": "SD ",
               "QuantityInfo": {
-                "Path": "Volak_2012_Paracetamol Glu_PO_325 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Volak_2013_Paracetamol Glu_PO_325 mg|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -14122,7 +12439,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Volak_2012_Paracetamol Glu_PO_325 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Volak_2013_Paracetamol Glu_PO_325 mg|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -14148,7 +12465,7 @@
       "BaseGrid": {
         "Name": "Time ",
         "QuantityInfo": {
-          "Path": "Volak_2012_Paracetamol Glu_PO_325 mg|Time ",
+          "Path": "Volak_2013_Paracetamol Glu_PO_325 mg|Time ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -14172,7 +12489,7 @@
       }
     },
     {
-      "Name": "Volak_2012_Paracetamol Sul_PO_325 mg",
+      "Name": "Volak_2013_Paracetamol Sul_PO_325 mg",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -14207,7 +12524,7 @@
             {
               "Name": "SD ",
               "QuantityInfo": {
-                "Path": "Volak_2012_Paracetamol Sul_PO_325 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Volak_2013_Paracetamol Sul_PO_325 mg|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -14231,7 +12548,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Volak_2012_Paracetamol Sul_PO_325 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Volak_2013_Paracetamol Sul_PO_325 mg|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -14257,7 +12574,7 @@
       "BaseGrid": {
         "Name": "Time ",
         "QuantityInfo": {
-          "Path": "Volak_2012_Paracetamol Sul_PO_325 mg|Time ",
+          "Path": "Volak_2013_Paracetamol Sul_PO_325 mg|Time ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -14464,13 +12781,6 @@
       ]
     },
     {
-      "Name": "UNKNOWN",
-      "Classifiables": [
-        "UNKNOWN_Paracetamol_PO_1500 mg",
-        "UNKNOWN_Paracetamol_PO_1000 mg"
-      ]
-    },
-    {
       "Name": "Novo NN8022-3630_2012",
       "Classifiables": [
         "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg"
@@ -14536,16 +12846,7 @@
       "Classifiables": [
         "Liukas_2011_Paracetamol_IV_1000mg",
         "Liukas_2011_Paracetamol Sul_IV_1000mg",
-        "Liukas_2011_Paracetamol Glu_IV_1000mg",
-        "Liukas 66y APAP",
-        "Liukas 66y Sul",
-        "Liukas 66y Glu",
-        "Liukas 77y APAP",
-        "Liukas 77y Glu",
-        "Liukas 77y Sul",
-        "Liukas 84 APAP",
-        "Liukas 84 Glu",
-        "Liukas 84y Sul"
+        "Liukas_2011_Paracetamol Glu_IV_1000mg"
       ]
     },
     {
@@ -14565,11 +12866,11 @@
       ]
     },
     {
-      "Name": "Volak_2012",
+      "Name": "Volak_2013",
       "Classifiables": [
-        "Volak_2012_Paracetamol_PO_325 mg",
-        "Volak_2012_Paracetamol Glu_PO_325 mg",
-        "Volak_2012_Paracetamol Sul_PO_325 mg"
+        "Volak_2013_Paracetamol_PO_325 mg",
+        "Volak_2013_Paracetamol Glu_PO_325 mg",
+        "Volak_2013_Paracetamol Sul_PO_325 mg"
       ]
     },
     {
@@ -14586,6 +12887,7 @@
       "Name": "Oral IR/ solution",
       "Classifiables": [
         "Clements_1984_Paracetamol_PO_20 mgkg",
+        "Clements_1984_Paracetamol_PO_5 mgkg",
         "Dalton_2001_Paracetamol_PO 650 mg",
         "Prescott_1980_Paracetamol_PO_12 mgkg",
         "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
@@ -14594,8 +12896,7 @@
         "Rawlins_1977_Paracetamol_PO_1000 mg",
         "Rawlins_1977_Paracetamol_PO_500 mg",
         "Souliman_2006_Paracetamol_PO_500 mg",
-        "Van der Veen_1994_Paracetamol_PO_300 mg",
-        "Clements_1984_Paracetamol_PO_5 mgkg"
+        "Van der Veen_1994_Paracetamol_PO_300 mg"
       ]
     },
     {
@@ -14617,7 +12918,7 @@
         "Dalton_2001_Paracetamol_PO_750 mg_RingCap",
         "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable",
         "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
-        "Volak_2012_Paracetamol_PO_325 mg"
+        "Volak_2013_Paracetamol_PO_325 mg"
       ]
     },
     {
