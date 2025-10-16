@@ -30,6 +30,8 @@
 
 **Prescott 1980** Prescott LF. Kinetics and metabolism of paracetamol and phenacetin. Br J Clin Pharmacol. 1980 Oct;10 Suppl 2(Suppl 2):291S-298S. doi: 10.1111/j.1365-2125.1980.tb01812.x. 
 
+**PubChem** https://pubchem.ncbi.nlm.nih.gov/compound/3-Methoxyacetaminophen
+
 **Rawlins 1977** Rawlins MD, Henderson DB, Hijab AR. Pharmacokinetics of paracetamol (acetaminophen) after intravenous and oral administration. Eur J Clin Pharmacol. 1977 Apr 20;11(4):283-6. doi: 10.1007/BF00607678.
 
 **Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 	
