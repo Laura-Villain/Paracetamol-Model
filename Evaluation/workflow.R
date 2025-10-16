@@ -15,7 +15,7 @@
 #' # Create a Qualification Report without any option and running v9.1.1 of Qualification Runner
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1")
 #' 
-#' # Create a Qualification Report and turn of the creation of a doc version
+#' # Create a Qualification Report and turn off the creation of a docx version
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", createWordReport = FALSE)
 #' 
 #' # Create a Qualification Report and set the number of simulations to be run per core
