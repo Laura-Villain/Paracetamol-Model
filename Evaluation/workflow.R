@@ -7,7 +7,7 @@
 #' @param createWordReport Logical defining if a `docx` version of the report should also be created.
 #' Note that `pandoc` installation is required for this feature
 #' [https://github.com/Open-Systems-Pharmacology/OSPSuite.ReportingEngine/wiki/Installing-pandoc]
-#' @param maxSimulationsPerCore An integer that set the maximimum number of simulations per core
+#' @param maxSimulationsPerCore An integer that set the maximum number of simulations per core
 #' @param versionInfo A `QualificationVersionInfo` object to update title page with Qualification Version Information
 #' @param wordConversionTemplate File name of docx template document passed to Pandoc for the conversion of the md report into docx
 #' Default template is available using `system.file("extdata", "reference.docx", package = "ospsuite.reportingengine")`
