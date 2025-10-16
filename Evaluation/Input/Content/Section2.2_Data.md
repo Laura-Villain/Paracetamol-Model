@@ -22,17 +22,13 @@ A literature search was performed to collect available information on physicoche
 | pK<sub>a</sub>  | |2.20| [Mian 2020](#main-references)          | Acid dissociation constant                      |
 | Solubility (pH) |    mg/ml    |   1.540 (7.00)          | [Mian 2020](#main-references)            | Aqueous Solubility
 | **NAPQI**   |  |  |  | |
-| MW              | g/mol    |  231.23         | [Mian 2020](#main-references)               | Molecular weight|
-| logP            |    | -1                | [Mian 2020](#main-references) | Partition coefficient between octanol and water |
-| fu          |    | 0.46                   | [Mian 2020](#main-references)                 | Fraction unbound in plasma, major binding partner unknown                    |
-| pK<sub>a</sub>  | |2.20| [Mian 2020](#main-references)          | Acid dissociation constant                      |
-| Solubility (pH) |    mg/ml    |   1.540 (7.00)          | [Mian 2020](#main-references)            | Aqueous Solubility
-| **Methocyacetaminophen**   |  |  |  | |
-| MW              | g/mol    |  231.23         | [Mian 2020](#main-references)               | Molecular weight|
-| logP            |    | -1                | [Mian 2020](#main-references) | Partition coefficient between octanol and water |
-| fu          |    | 0.46                   | [Mian 2020](#main-references)                 | Fraction unbound in plasma, major binding partner unknown                    |
-| pK<sub>a</sub>  | |2.20| [Mian 2020](#main-references)          | Acid dissociation constant                      |
-| Solubility (pH) |    mg/ml    |   1.540 (7.00)          | [Mian 2020](#main-references)            | Aqueous Solubility
+| MW              | g/mol    |  149         | [Mian 2020](#main-references)               | Molecular weight|
+| logP            |    | 0.53                | [Mian 2020](#main-references) | Partition coefficient between octanol and water |
+| fu          |    | 0.26                   | [Mian 2020](#main-references)                 | Fraction unbound in plasma, major binding partner unknown                    |
+| Solubility (pH) |    mg/ml    |   0.987(7.00)          | [Mian 2020](#main-references)            | Aqueous Solubility
+| **Methoxyacetaminophen**   |  |  |  | |
+| MW              | g/mol    |  181        | [PubChem](#main-references)               | Molecular weight|
+| logP            |    | 0                | [PubChem](#main-references) | Partition coefficient between octanol and water |
 
 ### Clinical Data  <a id="clinical-data"></a>
 
