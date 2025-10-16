@@ -22,6 +22,8 @@
 
 **Mian 2020** Mian P, van den Anker JN, van Calsteren K, Annaert P, Tibboel D, Pfister M, Allegaert K, Dallmann A. Physiologically Based Pharmacokinetic Modeling to Characterize Acetaminophen Pharmacokinetics and N-Acetyl-p-Benzoquinone Imine (NAPQI) Formation in Non-Pregnant and Pregnant Women. Clin Pharmacokinet. 2020 Jan;59(1):97-110. doi: 10.1007/s40262-019-00799-5. 
 
+**Novo Nordisk 2012** Novo Nordisk A/S D, 2012. A Randomised, Placebo-controlled, Double-blind, Incomplete Cross-over Design Trial to Evaluate the Effects of Liraglutide on Gastric Emptying, Energy Expenditure and Appetite, and to Evaluate Liraglutide Pharmacokinetics in Non-diabetic Obese Subjects. Clinical Trial Report Trial ID NN8022-3630.
+
 **Paintaud 1998** Paintaud G, Thibault P, Queneau PE, Magnette J, Bérard M, Rumbach L, Bechtel PR, Carayon P. Intraindividual variability of paracetamol absorption kinetics after a semi-solid meal in healthy volunteers. Eur J Clin Pharmacol. 1998 Jan;53(5):355-9. doi: 10.1007/s002280050393.
 
 **PK-Sim Ontogeny Database Version 7.3** ([https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf](https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf))	
