@@ -16,7 +16,7 @@
 
 **Johnson 2018** TN, Bonner JJ, Tucker GT, Turner DB, Jamei M. Development and applications of a physiologically-based model of paediatric oral drug absorption. Eur J Pharm Sci. 2018 Mar 30;115:57-67. doi: 10.1016/j.ejps.2018.01.009. 
 
-**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134. Epub 2016 Oct 19. 	
+**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134.
 
 **Liukas 2011** Liukas A, Kuusniemi K, Aantaa R, Virolainen P, Niemi M, Neuvonen PJ, Olkkola KT. Pharmacokinetics of intravenous paracetamol in elderly patients. Clin Pharmacokinet. 2011 Feb;50(2):121-9. doi: 10.2165/11537240-000000000-00000. 
 
@@ -32,10 +32,10 @@
 
 **Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 	
 
-**Souliman 2006** Souliman S, Blanquet S, Beyssac E, Cardot JM. A level A in vitro/in vivo correlation in fasted and fed states using different methods: applied to solid immediate release oral dosage form. Eur J Pharm Sci. 2006 Jan;27(1):72-9. doi: 10.1016/j.ejps.2005.08.006. Epub 2005 Sep 19. 
+**Souliman 2006** Souliman S, Blanquet S, Beyssac E, Cardot JM. A level A in vitro/in vivo correlation in fasted and fed states using different methods: applied to solid immediate release oral dosage form. Eur J Pharm Sci. 2006 Jan;27(1):72-9. doi: 10.1016/j.ejps.2005.08.006.  
 
 **Statelova 2020** Statelova M, Holm R, Fotaki N, Reppas C, Vertzoni M. Successful Extrapolation of Paracetamol Exposure from Adults to Infants After Oral Administration of a Pediatric Aqueous Suspension Is Highly Dependent on the Study Dosing Conditions. AAPS J. 2020 Sep 30;22(6):126. doi: 10.1208/s12248-020-00504-6.
 
-**van der Veen 1994** van der Veen J, Eissens AC, Lerk CF. Controlled release of paracetamol from amylodextrin tablets: in vitro and in vivo results. Pharm Res. 1994 Mar;11(3):384-7. doi: 10.1023/a:1018956819404. PMID: 8008703.
+**van der Veen 1994** van der Veen J, Eissens AC, Lerk CF. Controlled release of paracetamol from amylodextrin tablets: in vitro and in vivo results. Pharm Res. 1994 Mar;11(3):384-7. doi: 10.1023/a:1018956819404. 
 
 **Volak 2013** Volak LP, Hanley MJ, Masse G, Hazarika S, Harmatz JS, Badmaev V, Majeed M, Greenblatt DJ, Court MH. Effect of a herbal extract containing curcumin and piperine on midazolam, flurbiprofen and paracetamol (acetaminophen) pharmacokinetics in healthy volunteers. Br J Clin Pharmacol. 2013 Feb;75(2):450-62. doi: 10.1111/j.1365-2125.2012.04364.x. 
