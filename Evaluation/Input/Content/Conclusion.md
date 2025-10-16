@@ -1,3 +1,3 @@
-The herein presented PBPK model adequately describes the pharmacokinetics of paracetamol in adults following single-dose administration in both fasted and fed states.
+The presented PBPK model adequately describes the pharmacokinetics of paracetamol in adults following single-dose administration under both fasted and fed conditions. This evaluation focused on paracetamol; assessment of its metabolites, particularly NAPQI and methoxyacetaminophen, would require further investigation.
 
 In particular, it applies metabolism to paracetamol glucuronide via UGT1A1, and to paracetamol sulfate through SULT1A1, and CYP450 isoenzymes.

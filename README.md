@@ -12,6 +12,8 @@ The model was developed and evaluated for paracetamol using data from several cl
 
 The PK-Sim snapshot file contains simulations and the observed data of all clinical studies used for model development and evaluation.
 
+The presented model and evaluation focus on assessing the PBPK model performance for paracetamol. The model includes the main paracetamol metabolites—paracetamol glucuronide, paracetamol sulfate, methoxyacetaminophen, and NAPQI. Evaluation of the PBPK model’s predictive performance for these metabolites, particularly NAPQI and methoxyacetaminophen, would require further investigation.
+
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
 
