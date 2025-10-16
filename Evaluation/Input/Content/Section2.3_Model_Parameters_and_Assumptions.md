@@ -2,7 +2,7 @@
 
 The measured solubility of paracetamol was taken from Product information from [Mian 2020](#main-references)   (see [Section 2.2.1](#invitro-and-physico-chemical-data)).
 
-Paracetamol is a highly-soluble compound, therefore, for most studies dissolution was modeled as a dissolved formulation. However, a few studie containing Tablets, Capsules or Modified-release Tablets used an optimized empirical Weibull dissolution approach.
+Paracetamol is a highly-soluble compound, therefore, for most studies dissolution was modeled as a dissolved formulation. However, a few studies containing Tablets, Capsules or Modified-release Tablets used an optimized empirical Weibull dissolution approach.
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
