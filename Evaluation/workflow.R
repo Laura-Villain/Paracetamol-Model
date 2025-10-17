@@ -14,17 +14,17 @@
 #' @examples
 #' # Create a Qualification Report without any option and running v9.1.1 of Qualification Runner
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1")
-#' 
+#'
 #' # Create a Qualification Report and turn off the creation of a docx version
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", createWordReport = FALSE)
-#' 
+#'
 #' # Create a Qualification Report and set the number of simulations to be run per core
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", maxSimulationsPerCore = 8)
-#' 
+#'
 #' # Create a Qualification Report and update Qualification Version Information on title page
 #' versionInfo <- QualificationVersionInfo$new("1.1", "2.2","3.3")
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
-#' 
+#'
 createQualificationReport <- function(qualificationRunnerFolder,
                                       pkSimPortableFolder = NULL,
                                       createWordReport = TRUE,
@@ -35,7 +35,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   # Reset settings such as plot theme or format of numeric in tables
   # to Reporting Engine default values
   resetRESettingsToDefault()
-  
+
   #-------- STEP 1: Define workflow settings --------#
   #' replace `workingDirectory` and `qualificationPlanName` with your paths
   #'
@@ -56,34 +56,34 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' - `reportName`:  path of final report
   #'
   #' **Template parameters to be replaced below**
-  
+
   #' `workingDirectory`: current directory is used as default working directory
   workingDirectory <- getwd()
-  
+
   qualificationPlanName <- "evaluation_plan.json"
   qualificationPlanFile <- file.path(workingDirectory, "Input", qualificationPlanName)
-  
+
   #' The default outputs of qualification runner should be generated under `<workingDirectory>/re_input`
   reInputFolder <- file.path(workingDirectory, "re_input")
   #' The default outputs or RE should be generated under `<workingDirectory>/re_output`
   reOutputFolder <- file.path(workingDirectory, "re_output")
-  
+
   #' Configuration Plan created from the Qualification Plan by the Qualification Runner
   configurationPlanName <- "report-configuration-plan"
   configurationPlanFile <- file.path(reInputFolder, paste0(configurationPlanName, ".json"))
-  
+
   #' Option to record the time require to run the workflow.
   #' The timer will calculate calculation time from internal `Sys.time` function
   recordWorkflowTime <- TRUE
-  
+
   #' Set watermark that will appear in all generated plots
-  #' Default is no watermark. `Label` objects from `tlf` package can be used to specifiy watermark font.
+  #' Default is no watermark. `Label` objects from `tlf` package can be used to specify watermark font.
   watermark <- ""
-  
-  #' If not set, report created will be named `report.md` and located in the worflow folder namely `reOutputFolder`
+
+  #' If not set, report created will be named `report.md` and located in the workflow folder namely `reOutputFolder`
   reportFolder <- file.path(workingDirectory, "report")
   reportPath <- file.path(reportFolder, "report.md")
-  
+
   #----- Optional parameters for the Qualification Runner -----#
   #' If not null, `logFile` is passed internally via the `-l` option
   logFile <- NULL
@@ -91,13 +91,13 @@ createQualificationReport <- function(qualificationRunnerFolder,
   logLevel <- NULL
   #' If `overwrite` is set to true, eventual results from the previous run of the QualiRunner/RE will be removed first
   overwrite <- TRUE
-  
+
   #-------- STEP 2: Qualification Runner  --------#
   #' Start timer to track time if option `recordWorkflowTime` is set to TRUE
   if (recordWorkflowTime) {
     tic <- as.numeric(Sys.time())
   }
-  
+
   #' Start Qualification Runner to generate inputs for the reporting engine
   startQualificationRunner(
     qualificationRunnerFolder = qualificationRunnerFolder,
@@ -109,16 +109,16 @@ createQualificationReport <- function(qualificationRunnerFolder,
     logFile = logFile,
     logLevel = logLevel
   )
-  
+
   #' Print timer tracked time if option `recordWorkflowTime` is set to TRUE
   if (recordWorkflowTime) {
     toc <- as.numeric(Sys.time())
     print(paste0("Qualification Runner Duration: ", round((toc - tic) / 60, 1), " minutes"))
   }
-  
+
   #-------- STEP 3: Run Qualification Workflow  --------#
   # If version info is provided update title page
-  titlePageFile <- file.path(reInputFolder, "Intro/titlepage.md") 
+  titlePageFile <- file.path(reInputFolder, "Intro/titlepage.md")
   addTitlePage <- all(
     !is.null(versionInfo),
     file.exists(titlePageFile)
@@ -126,26 +126,26 @@ createQualificationReport <- function(qualificationRunnerFolder,
   if(addTitlePage){
     adjustTitlePage(titlePageFile, qualificationVersionInfo = versionInfo)
   }
-  
+
   #' Load `QualificationWorkflow` object from configuration plan
   workflow <- loadQualificationWorkflow(
     workflowFolder = reOutputFolder,
     configurationPlanFile = configurationPlanFile
   )
-  
+
   #' Set the name of the final report
   workflow$reportFilePath <- reportPath
   workflow$createWordReport <- createWordReport
   workflow$wordConversionTemplate <- wordConversionTemplate
-  
+
   #' Set watermark. If set, it will appear in all generated plots
   workflow$setWatermark(watermark)
-  
-  #' Set the maximimum number of simulations per core if defined
+
+  #' Set the maximum number of simulations per core if defined
   if(!is.null(maxSimulationsPerCore)){
     workflow$simulate$settings$maxSimulationsPerCore <- maxSimulationsPerCore
   }
-  
+
   #' @note Activate/Inactivate tasks of qualification workflow prior running
   #' workflow$inactivateTasks("simulate")
   #' workflow$inactivateTasks("calculatePKParameters")
@@ -154,10 +154,10 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' workflow$inactivateTasks("plotGOFMerged")
   #' workflow$inactivateTasks("plotPKRatio")
   #' workflow$inactivateTasks("plotDDIRatio")
-  
-  #' Run the `QualificatitonWorklfow`
+
+  #' Run the `QualificationWorklfow`
   workflow$runWorkflow()
-  
+
   #' Print timer tracked time if option `recordWorkflowTime` is set to TRUE
   if (recordWorkflowTime) {
     toc <- as.numeric(Sys.time())

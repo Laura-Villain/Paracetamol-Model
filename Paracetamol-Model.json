@@ -1157,42 +1157,6 @@
               "Unit": "l/min"
             }
           ]
-        },
-        {
-          "InternalName": "TubularSecretion_FirstOrder",
-          "DataSource": "TubSec 65y",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Tubular secretion",
-              "Value": 0.11,
-              "Unit": "l/min"
-            }
-          ]
-        },
-        {
-          "InternalName": "TubularSecretion_FirstOrder",
-          "DataSource": "TubSec 75y",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Tubular secretion",
-              "Value": 0.1,
-              "Unit": "l/min"
-            }
-          ]
-        },
-        {
-          "InternalName": "TubularSecretion_FirstOrder",
-          "DataSource": "TubSec Elderly",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Tubular secretion",
-              "Value": 0.09,
-              "Unit": "l/min"
-            }
-          ]
         }
       ],
       "CalculationMethods": [
@@ -1274,57 +1238,6 @@
               "Unit": "µmol/l"
             }
           ]
-        },
-        {
-          "InternalName": "TubularSecretion_MM",
-          "DataSource": "TubSec 65y",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "TSmax",
-              "Value": 20.0,
-              "Unit": "µmol/min"
-            },
-            {
-              "Name": "Km",
-              "Value": 41.4,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "TubularSecretion_MM",
-          "DataSource": "TubSec 75y",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "TSmax",
-              "Value": 18.0,
-              "Unit": "µmol/min"
-            },
-            {
-              "Name": "Km",
-              "Value": 41.4,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "TubularSecretion_MM",
-          "DataSource": "TubSec 85y",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "TSmax",
-              "Value": 14.157,
-              "Unit": "µmol/min"
-            },
-            {
-              "Name": "Km",
-              "Value": 41.4,
-              "Unit": "µmol/l"
-            }
-          ]
         }
       ],
       "CalculationMethods": [
@@ -1347,132 +1260,6 @@
       "FormulationType": "Formulation_Dissolved"
     },
     {
-      "Name": "Matrix as table",
-      "FormulationType": "Formulation_Table",
-      "Parameters": [
-        {
-          "Name": "Fraction (dose)",
-          "Value": 0.0,
-          "TableFormula": {
-            "Name": "Rohdaten_Paracetamol.Dalton2001 Diss 750mg Matrix",
-            "XName": "Time",
-            "XDimension": "Time",
-            "XUnit": "h",
-            "YName": "Rohdaten_Paracetamol.Dalton2001 Diss 750mg Matrix",
-            "YDimension": "Fraction",
-            "YUnit": "%",
-            "UseDerivedValues": true,
-            "Points": [
-              {
-                "X": 0.0,
-                "Y": 0.0,
-                "RestartSolver": false
-              },
-              {
-                "X": 1.0,
-                "Y": 10.5128,
-                "RestartSolver": false
-              },
-              {
-                "X": 2.0,
-                "Y": 19.7436,
-                "RestartSolver": false
-              },
-              {
-                "X": 3.0,
-                "Y": 28.9744,
-                "RestartSolver": false
-              },
-              {
-                "X": 4.0,
-                "Y": 35.8974,
-                "RestartSolver": false
-              },
-              {
-                "X": 5.0,
-                "Y": 41.7949,
-                "RestartSolver": false
-              },
-              {
-                "X": 6.0,
-                "Y": 47.692299999999996,
-                "RestartSolver": false
-              },
-              {
-                "X": 7.0,
-                "Y": 53.846199999999996,
-                "RestartSolver": false
-              },
-              {
-                "X": 8.0,
-                "Y": 59.743599999999994,
-                "RestartSolver": false
-              },
-              {
-                "X": 9.0,
-                "Y": 65.3846,
-                "RestartSolver": false
-              },
-              {
-                "X": 10.0,
-                "Y": 71.2821,
-                "RestartSolver": false
-              },
-              {
-                "X": 11.0,
-                "Y": 76.1539,
-                "RestartSolver": false
-              },
-              {
-                "X": 12.0,
-                "Y": 81.0256,
-                "RestartSolver": false
-              },
-              {
-                "X": 13.0,
-                "Y": 85.384599999999992,
-                "RestartSolver": false
-              },
-              {
-                "X": 14.0,
-                "Y": 88.717999999999989,
-                "RestartSolver": false
-              },
-              {
-                "X": 15.0,
-                "Y": 92.0513,
-                "RestartSolver": false
-              },
-              {
-                "X": 16.0,
-                "Y": 94.615400000000008,
-                "RestartSolver": false
-              },
-              {
-                "X": 17.0,
-                "Y": 96.923099999999991,
-                "RestartSolver": false
-              },
-              {
-                "X": 18.0,
-                "Y": 98.974399999999989,
-                "RestartSolver": false
-              },
-              {
-                "X": 19.0,
-                "Y": 100.0,
-                "RestartSolver": false
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Use as suspension",
-          "Value": 1.0
-        }
-      ]
-    },
-    {
       "Name": "Matrix as weibull",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
@@ -1489,192 +1276,6 @@
         {
           "Name": "Dissolution shape",
           "Value": 1.291
-        },
-        {
-          "Name": "Use as suspension",
-          "Value": 1.0
-        }
-      ]
-    },
-    {
-      "Name": "RingCap as table",
-      "FormulationType": "Formulation_Table",
-      "Parameters": [
-        {
-          "Name": "Fraction (dose)",
-          "Value": 0.0,
-          "TableFormula": {
-            "Name": "Rohdaten_Paracetamol.Dalton2001 Diss 750mg RingCap",
-            "XName": "Time",
-            "XDimension": "Time",
-            "XUnit": "h",
-            "YName": "Rohdaten_Paracetamol.Dalton2001 Diss 750mg RingCap",
-            "YDimension": "Fraction",
-            "YUnit": "%",
-            "UseDerivedValues": true,
-            "Points": [
-              {
-                "X": 0.0,
-                "Y": 0.0,
-                "RestartSolver": false
-              },
-              {
-                "X": 1.0,
-                "Y": 6.4102999999999994,
-                "RestartSolver": false
-              },
-              {
-                "X": 2.0,
-                "Y": 11.538499999999999,
-                "RestartSolver": false
-              },
-              {
-                "X": 3.0,
-                "Y": 16.666700000000002,
-                "RestartSolver": false
-              },
-              {
-                "X": 4.0,
-                "Y": 21.5385,
-                "RestartSolver": false
-              },
-              {
-                "X": 5.0,
-                "Y": 26.1539,
-                "RestartSolver": false
-              },
-              {
-                "X": 6.0,
-                "Y": 30.0,
-                "RestartSolver": false
-              },
-              {
-                "X": 7.0,
-                "Y": 33.846199999999996,
-                "RestartSolver": false
-              },
-              {
-                "X": 8.0,
-                "Y": 37.6923,
-                "RestartSolver": false
-              },
-              {
-                "X": 9.0,
-                "Y": 41.0256,
-                "RestartSolver": false
-              },
-              {
-                "X": 10.0,
-                "Y": 44.358999999999995,
-                "RestartSolver": false
-              },
-              {
-                "X": 11.0,
-                "Y": 47.692299999999996,
-                "RestartSolver": false
-              },
-              {
-                "X": 12.0,
-                "Y": 50.769200000000005,
-                "RestartSolver": false
-              },
-              {
-                "X": 13.0,
-                "Y": 53.589699999999993,
-                "RestartSolver": false
-              },
-              {
-                "X": 14.0,
-                "Y": 56.4103,
-                "RestartSolver": false
-              },
-              {
-                "X": 15.0,
-                "Y": 58.9744,
-                "RestartSolver": false
-              },
-              {
-                "X": 16.0,
-                "Y": 61.538499999999992,
-                "RestartSolver": false
-              },
-              {
-                "X": 17.0,
-                "Y": 63.846199999999996,
-                "RestartSolver": false
-              },
-              {
-                "X": 18.0,
-                "Y": 66.1539,
-                "RestartSolver": false
-              },
-              {
-                "X": 19.0,
-                "Y": 68.718,
-                "RestartSolver": false
-              },
-              {
-                "X": 20.0,
-                "Y": 71.0256,
-                "RestartSolver": false
-              },
-              {
-                "X": 21.0,
-                "Y": 73.3333,
-                "RestartSolver": false
-              },
-              {
-                "X": 22.0,
-                "Y": 75.8974,
-                "RestartSolver": false
-              },
-              {
-                "X": 23.0,
-                "Y": 78.461499999999987,
-                "RestartSolver": false
-              },
-              {
-                "X": 24.0,
-                "Y": 81.2821,
-                "RestartSolver": false
-              },
-              {
-                "X": 25.0,
-                "Y": 83.8462,
-                "RestartSolver": false
-              },
-              {
-                "X": 26.0,
-                "Y": 87.4359,
-                "RestartSolver": false
-              },
-              {
-                "X": 27.0,
-                "Y": 90.2564,
-                "RestartSolver": false
-              },
-              {
-                "X": 28.0,
-                "Y": 93.5897,
-                "RestartSolver": false
-              },
-              {
-                "X": 29.0,
-                "Y": 96.153900000000007,
-                "RestartSolver": false
-              },
-              {
-                "X": 30.0,
-                "Y": 98.717999999999989,
-                "RestartSolver": false
-              },
-              {
-                "X": 31.0,
-                "Y": 100.0,
-                "RestartSolver": false
-              }
-            ]
-          }
         },
         {
           "Name": "Use as suspension",
@@ -1707,7 +1308,7 @@
       ]
     },
     {
-      "Name": "Tablet Volak",
+      "Name": "Tablet/Capsule",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
         {
@@ -2207,7 +1808,17 @@
   "Events": [
     {
       "Name": "Standard Meal",
-      "Template": "Meal: Standard (Human)"
+      "Template": "Meal: Standard (Human)",
+      "Parameters": [
+        {
+          "Name": "Meal energy content",
+          "Value": 960.0,
+          "Unit": "kcal",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ]
     },
     {
       "Name": "Mixed Light Meal",
@@ -2612,528 +2223,6 @@
       ]
     },
     {
-      "Name": "Divoll_1982_Paracetamol_IV_650 mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Divoll_1982_Paracetamol_IV_650 mg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 60.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Organism|Lumen|Stomach|GET of non-disintegrated moiety",
-          "Value": 15.0,
-          "Unit": "min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Paracetamol|Intestinal permeability (transcellular)",
-          "Value": 0.0024042147234,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Divoll_1982_Paracetamol_IV_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Divoll_1982_Paracetamol_IV_650 mg"
-        }
-      ],
-      "Individual": "Elderly Divoll 1982",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "IV 650 mg"
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Divoll_1982_Paracetamol_IV_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Divoll_1982_Paracetamol_IV_650 mg-Paracetamol-Measurement",
-              "X": "Divoll_1982_Paracetamol_IV_650 mg|Time",
-              "Y": "Divoll_1982_Paracetamol_IV_650 mg|ObservedData|||Paracetamol|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Divoll_1982_Paracetamol_IV_650 mg",
-          "OriginText": "Paracetamol_Model_MG\nDivoll_1982_Paracetamol_IV_650 mg\n2025-10-09 14:38"
-        }
-      ]
-    },
-    {
-      "Name": "Liukas_2011_Paracetamol_IV_1000mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Liukas_2011_Paracetamol_IV_1000mg",
-        "Liukas_2011_Paracetamol Glu_IV_1000mg",
-        "Liukas_2011_Paracetamol Sul_IV_1000mg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|IV Inf 1000 mg|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 15.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Liukas_2011_Paracetamol Glu_IV_1000mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Liukas_2011_Paracetamol Sul_IV_1000mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Liukas_2011_Paracetamol_IV_1000mg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Methoxyacetaminophen",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-TS",
-              "SystemicProcessType": "Renal"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "NAPQI",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-TS",
-              "SystemicProcessType": "Renal"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1",
-              "MetaboliteName": "Paracetamol sulfate"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1",
-              "MetaboliteName": "Methoxyacetaminophen"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2",
-              "MetaboliteName": "NAPQI"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9",
-              "MetaboliteName": "Methoxyacetaminophen"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6",
-              "MetaboliteName": "NAPQI"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4",
-              "MetaboliteName": "NAPQI"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1",
-              "MetaboliteName": "Paracetamol glucuronide"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19",
-              "MetaboliteName": "Methoxyacetaminophen"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "IV Inf 1000 mg"
-          }
-        },
-        {
-          "Name": "Paracetamol glucuronide",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-Ratio Test",
-              "SystemicProcessType": "Renal"
-            }
-          ]
-        },
-        {
-          "Name": "Paracetamol sulfate",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-RatioTest",
-              "SystemicProcessType": "Renal"
-            }
-          ]
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "Liukas_2011_Paracetamol_IV_1000mg-Paracetamol-Peripheral Venous Blood-Plasma-mean concentration  ",
-              "X": "Liukas_2011_Paracetamol_IV_1000mg|time ",
-              "Y": "Liukas_2011_Paracetamol_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|mean concentration  ",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Liukas_2011_Paracetamol Glu_IV_1000mg-Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Conc ",
-              "X": "Liukas_2011_Paracetamol Glu_IV_1000mg|Time ",
-              "Y": "Liukas_2011_Paracetamol Glu_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Conc ",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Liukas_2011_Paracetamol Sul_IV_1000mg-Paracetamol sulfate-Peripheral Venous Blood-Plasma-Conc ",
-              "X": "Liukas_2011_Paracetamol Sul_IV_1000mg|Time ",
-              "Y": "Liukas_2011_Paracetamol Sul_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Conc ",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Liukas_2011_Paracetamol_IV_1000mg",
-          "OriginText": "Paracetamol-Model\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-16 15:23"
-        }
-      ]
-    },
-    {
       "Name": "Prescott_1980_Paracetamol_IV_12 mgkg",
       "Model": "4Comp",
       "ObservedData": [
@@ -3310,7 +2399,7 @@
               "X": "Prescott_1980_Paracetamol_IV_12 mgkg|Time",
               "Y": "Prescott_1980_Paracetamol_IV_12 mgkg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
-                "Color": "#0000FF",
+                "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4025,246 +3114,6 @@
       ]
     },
     {
-      "Name": "Prescott_1980_Paracetamol_PO_12 mgkg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Prescott_1980_Paracetamol_PO_12 mgkg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 6.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO 12 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Paracetamol|Intestinal permeability (transcellular)",
-          "Value": 0.0024442147234,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Prescott_1980_Paracetamol_PO_12 mgkg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Prescott_1980_Paracetamol_PO_12 mgkg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1",
-              "MetaboliteName": "Paracetamol sulfate"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1",
-              "MetaboliteName": "Paracetamol glucuronide"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO 12 mgkg",
-            "Formulations": [
-              {
-                "Name": "Dissolved",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Paracetamol glucuronide",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-Ratio Test",
-              "SystemicProcessType": "Renal"
-            }
-          ]
-        },
-        {
-          "Name": "Paracetamol sulfate",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-RatioTest",
-              "SystemicProcessType": "Renal"
-            }
-          ]
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Prescott_1980_Paracetamol_PO_12 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Prescott_1980_Paracetamol_PO_12 mgkg-Paracetamol-Measurement",
-              "X": "Prescott_1980_Paracetamol_PO_12 mgkg|Time",
-              "Y": "Prescott_1980_Paracetamol_PO_12 mgkg|ObservedData|||Paracetamol|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Prescott_1980_Paracetamol_PO_12 mgkg",
-          "OriginText": "Paracetamol_Model_MG\nPrescott_1980_Paracetamol_PO_12 mgkg\n2025-10-14 14:08"
-        }
-      ]
-    },
-    {
       "Name": "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
       "Model": "4Comp",
       "ObservedData": [
@@ -4410,14 +3259,14 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
@@ -4478,305 +3327,10 @@
       ]
     },
     {
-      "Name": "Prescott_1980_Paracetamol_PO_20 mgkg",
+      "Name": "Divoll_1982b_Paracetamol_PO_650 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Prescott_1980_Paracetamol Sul_PO_20 mgkg",
-        "Prescott_1980_Paracetamol Glu_PO_20 mgkg",
-        "Prescott_1980_Paracetamol_PO_20 mgkg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 8.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO 20 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Prescott_1980_Paracetamol Glu_PO_20 mgkg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Prescott_1980_Paracetamol Sul_PO_20 mgkg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Prescott_1980_Paracetamol_PO_20 mgkg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1",
-              "MetaboliteName": "Paracetamol sulfate"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1",
-              "MetaboliteName": "Paracetamol glucuronide"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO 20 mgkg",
-            "Formulations": [
-              {
-                "Name": "Dissolved",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Paracetamol glucuronide",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-Ratio Test",
-              "SystemicProcessType": "Renal"
-            }
-          ]
-        },
-        {
-          "Name": "Paracetamol sulfate",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - PK-Sim Standard",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "Renal Clearances-RatioTest",
-              "SystemicProcessType": "Renal"
-            }
-          ]
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "Prescott_1980_Paracetamol_PO_20 mgkg-Paracetamol-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Prescott_1980_Paracetamol_PO_20 mgkg|Time ",
-              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration ",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Prescott_1980_Paracetamol Glu_PO_20 mgkg-Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Prescott_1980_Paracetamol Glu_PO_20 mgkg|Time ",
-              "Y": "Prescott_1980_Paracetamol Glu_PO_20 mgkg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Concentration ",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Prescott_1980_Paracetamol Sul_PO_20 mgkg-Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Prescott_1980_Paracetamol Sul_PO_20 mgkg|Time ",
-              "Y": "Prescott_1980_Paracetamol Sul_PO_20 mgkg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Concentration ",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Prescott_1980_Paracetamol_PO_20 mgkg",
-          "OriginText": "Paracetamol_Model_MG\nPrescott_1980_Paracetamol_PO_20 mgkg\n2025-10-14 14:08"
-        }
-      ]
-    },
-    {
-      "Name": "Divoll_1982_Paracetamol_PO_650 mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Divoll_1982_Paracetamol_PO_650 mg"
+        "Divoll_1982b_Paracetamol_PO_650 mg"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -4852,7 +3406,7 @@
         {
           "Scaling": "Log",
           "Path": "Divoll_1982_Paracetamol_PO_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Divoll_1982_Paracetamol_PO_650 mg"
+          "ObservedData": "Divoll_1982b_Paracetamol_PO_650 mg"
         }
       ],
       "Individual": "Elderly Divoll 1982",
@@ -4949,7 +3503,7 @@
             {
               "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Divoll_1982_Paracetamol_PO_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "Y": "Divoll_1982b_Paracetamol_PO_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
@@ -4957,8 +3511,8 @@
             },
             {
               "Name": "Divoll_1982_Paracetamol_PO_650 mg-Paracetamol-Measurement",
-              "X": "Divoll_1982_Paracetamol_PO_650 mg|Time",
-              "Y": "Divoll_1982_Paracetamol_PO_650 mg|ObservedData|||Paracetamol|Measurement",
+              "X": "Divoll_1982b_Paracetamol_PO_650 mg|Time",
+              "Y": "Divoll_1982b_Paracetamol_PO_650 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -5452,7 +4006,7 @@
             },
             {
               "Name": "End time",
-              "Value": 8.0,
+              "Value": 10.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -5614,7 +4168,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Souliman_2006_Paracetamol_PO_500 mg",
-          "OriginText": "Paracetamol_Model_MG\nSouliman_2006_Paracetamol_PO_500 mg\n2025-10-14 14:03"
+          "OriginText": "Paracetamol-Model_ MG171025\nSouliman_2006_Paracetamol_PO_500 mg\n2025-10-17 18:08"
         }
       ]
     },
@@ -5835,8 +4389,7 @@
       "Name": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Paintaud_1998_Paracetamol_PO_fed_1000 mg",
-        "Paintaud_1998_Paracetamol_PO_fed2_1000 mg"
+        "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -5896,12 +4449,7 @@
         {
           "Scaling": "Log",
           "Path": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Paintaud_1998_Paracetamol_PO_fed_1000 mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Paintaud_1998_Paracetamol_PO_fed2_1000 mg"
+          "ObservedData": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg"
         }
       ],
       "Individual": "Male",
@@ -6025,23 +4573,12 @@
               }
             },
             {
-              "Name": "Paintaud_1998_Paracetamol_PO_fed_1000 mg-Paracetamol-Measurement",
-              "X": "Paintaud_1998_Paracetamol_PO_fed_1000 mg|Time",
-              "Y": "Paintaud_1998_Paracetamol_PO_fed_1000 mg|ObservedData|||Paracetamol|Measurement",
+              "Name": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg-Paracetamol-Measurement",
+              "X": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg|Time",
+              "Y": "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Paintaud_1998_Paracetamol_PO_fed2_1000 mg-Paracetamol-Measurement",
-              "X": "Paintaud_1998_Paracetamol_PO_fed2_1000 mg|Time",
-              "Y": "Paintaud_1998_Paracetamol_PO_fed2_1000 mg|ObservedData|||Paracetamol|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 5,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -6310,441 +4847,6 @@
       ]
     },
     {
-      "Name": "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Rawlins_1977_Paracetamol_PO_fed_2000 mg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 6.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO 2000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Rawlins_1977_Paracetamol_PO_fed_2000 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Rawlins_1977_Paracetamol_PO_fed_2000 mg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO 2000 mg",
-            "Formulations": [
-              {
-                "Name": "Dissolved",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Soup",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h"
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rawlins_1977_Paracetamol_PO_fed_2000 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Rawlins_1977_Paracetamol_PO_fed_2000 mg-Paracetamol-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Rawlins_1977_Paracetamol_PO_fed_2000 mg|Time ",
-              "Y": "Rawlins_1977_Paracetamol_PO_fed_2000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration ",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
-          "OriginText": "Paracetamol_Model_MG\nRawlins_1977_Paracetamol_PO_fed_2000 mg\n2025-10-14 14:11"
-        }
-      ]
-    },
-    {
-      "Name": "Albert_1974_Paracetamol_PO_capsule_325 mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Albert_1974_Paracetamol_PO_capsule_325 mg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO 325 mg|Capsule Albert 1974|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Albert_1974_Paracetamol_PO_capsule_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Albert_1974_Paracetamol_PO_capsule_325 mg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO 325 mg",
-            "Formulations": [
-              {
-                "Name": "Capsule Albert 1974",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Albert_1974_Paracetamol_PO_capsule_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Albert 325mg capsule-Paracetamol-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Albert_1974_Paracetamol_PO_capsule_325 mg|Time ",
-              "Y": "Albert_1974_Paracetamol_PO_capsule_325 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration ",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Albert_1974_Paracetamol_PO_capsule_325 mg",
-          "OriginText": "Paracetamol_Model_MG\nAlbert_1974_Paracetamol_PO_capsule_325 mg\n2025-10-14 14:12"
-        }
-      ]
-    },
-    {
       "Name": "Albert_1974_Paracetamol_PO_tablet_650 mg",
       "Model": "4Comp",
       "ObservedData": [
@@ -6796,7 +4898,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 650 mg|Tablet/Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6867,7 +4969,7 @@
             "Name": "PO 650 mg",
             "Formulations": [
               {
-                "Name": "Tablet Volak",
+                "Name": "Tablet/Capsule",
                 "Key": "Formulation"
               }
             ]
@@ -6927,7 +5029,7 @@
               "X": "Albert_1974_Paracetamol_PO_tablet_650 mg|Time ",
               "Y": "Albert_1974_Paracetamol_PO_tablet_650 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration ",
               "CurveOptions": {
-                "Color": "#008000",
+                "Color": "#FF0000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -6961,7 +5063,7 @@
       "Name": "Dalton_2001_Paracetamol_PO_750 mg_Matrix",
       "Model": "4Comp",
       "ObservedData": [
-        "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix",
+        "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix",
         "Dalton_2001_Paracetamol_PO_750 mg_Matrix"
       ],
       "Solver": {},
@@ -7021,14 +5123,14 @@
       ],
       "OutputMappings": [
         {
-          "Scaling": "Linear",
-          "Path": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Organism|Lumen|Paracetamol|Fraction dissolved",
-          "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix"
-        },
-        {
           "Scaling": "Log",
           "Path": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
           "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_Matrix"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Organism|Lumen|Paracetamol|Fraction dissolved",
+          "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix"
         }
       ],
       "Individual": "Male",
@@ -7122,13 +5224,12 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -7143,29 +5244,6 @@
               }
             },
             {
-              "Name": "Paracetamol-Lumen-Fraction dissolved",
-              "X": "Time",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Organism|Lumen|Paracetamol|Fraction dissolved",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix-Paracetamol-Undefined-Undefined-% dissolved",
-              "X": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix|Time ",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix|ObservedData|Undefined|Undefined|Paracetamol|% dissolved",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#0000FF",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Dalton_2001_Paracetamol_PO_750 mg_Matrix-Paracetamol-Peripheral Venous Blood-Plasma-conc ",
               "X": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Time ",
               "Y": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|conc ",
@@ -7177,7 +5255,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Dalton_2001_Paracetamol_PO_750 mg_Matrix Tablet",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -7197,6 +5275,75 @@
           },
           "Title": "Dalton_2001_Paracetamol_PO_750 mg_Matrix Tablet",
           "OriginText": "Paracetamol_Model_MG\nDalton_2001_Paracetamol_PO_750 mg_Matrix\n2025-10-09 13:36"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Lumen-Fraction dissolved",
+              "X": "Time",
+              "Y": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Organism|Lumen|Paracetamol|Fraction dissolved",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix-Paracetamol-Measurement",
+              "X": "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix|Time",
+              "Y": "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix|ObservedData|||Paracetamol|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Dalton_2001_Paracetamol_PO_750 mg_Matrix Tablet - Dissolution",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Dalton_2001_Paracetamol_PO_750 mg_Matrix Tablet - Dissolution",
+          "OriginText": "Paracetamol-Model_ MG171025\nDalton_2001_Paracetamol_PO_750 mg_Matrix\n2025-10-17 15:26"
         }
       ]
     },
@@ -7204,7 +5351,7 @@
       "Name": "Dalton_2001_Paracetamol_PO_750 mg_RingCap",
       "Model": "4Comp",
       "ObservedData": [
-        "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap",
+        "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap",
         "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap"
       ],
       "Solver": {},
@@ -7263,11 +5410,6 @@
         "Organism|Lumen|Paracetamol|Fraction dissolved"
       ],
       "OutputMappings": [
-        {
-          "Scaling": "Linear",
-          "Path": "Dalton_2001_Paracetamol_PO_750 mg_RingCap|Organism|Lumen|Paracetamol|Fraction dissolved",
-          "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap"
-        },
         {
           "Scaling": "Log",
           "Path": "Dalton_2001_Paracetamol_PO_750 mg_RingCap|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
@@ -7365,7 +5507,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -7386,29 +5527,6 @@
               }
             },
             {
-              "Name": "Paracetamol-Lumen-Fraction dissolved",
-              "X": "Time",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_RingCap|Organism|Lumen|Paracetamol|Fraction dissolved",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap-Paracetamol-Undefined-Undefined-% dissolved",
-              "X": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|Time ",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|ObservedData|Undefined|Undefined|Paracetamol|% dissolved",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#0000FF",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap-Paracetamol-Peripheral Venous Blood-Plasma-conc ",
               "X": "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap|Time ",
               "Y": "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|conc ",
@@ -7420,7 +5538,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Dalton_2001_Paracetamol_PO_750 mg_RingCap Tablet",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -7439,149 +5557,8 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Dalton_2001_Paracetamol_PO_750 mg_RingCap Tablet",
-          "OriginText": "Paracetamol_Model_MG\nDalton_2001_Paracetamol_PO_750 mg_RingCap\n2025-10-14 14:25"
-        }
-      ]
-    },
-    {
-      "Name": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap",
-        "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
+          "OriginText": "Paracetamol-Model_ MG171025\nDalton_2001_Paracetamol_PO_750 mg_RingCap\n2025-10-17 11:16"
         },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 30.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO 750 mg|RingCap as table|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-        "Organism|Lumen|Paracetamol|Fraction dissolved"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable|Organism|Lumen|Paracetamol|Fraction dissolved",
-          "ObservedData": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO 750 mg",
-            "Formulations": [
-              {
-                "Name": "RingCap as table",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
         {
           "Axes": [
             {
@@ -7596,74 +5573,41 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
+              "Unit": "",
+              "Dimension": "Fraction",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
           "Curves": [
             {
-              "Name": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable-Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Paracetamol-Lumen-Fraction dissolved",
               "X": "Time",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "Y": "Dalton_2001_Paracetamol_PO_750 mg_RingCap|Organism|Lumen|Paracetamol|Fraction dissolved",
               "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable-Paracetamol-Lumen-Fraction dissolved",
-              "X": "Time",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable|Organism|Lumen|Paracetamol|Fraction dissolved",
-              "CurveOptions": {
-                "yAxisType": "Y2",
                 "Color": "#0000FF",
-                "LegendIndex": 2,
+                "LegendIndex": 4,
                 "LineStyle": "Dash"
               }
             },
             {
-              "Name": "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap-Paracetamol-Peripheral Venous Blood-Plasma-conc ",
-              "X": "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap|Time ",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|conc ",
+              "Name": "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap-Paracetamol-Measurement",
+              "X": "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap|Time",
+              "Y": "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap-Paracetamol-Undefined-Undefined-% dissolved",
-              "X": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|Time ",
-              "Y": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|ObservedData|Undefined|Undefined|Paracetamol|% dissolved",
-              "CurveOptions": {
-                "yAxisType": "Y2",
                 "Color": "#0000FF",
-                "LegendIndex": 6,
+                "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Dalton_2001_Paracetamol_PO_750 mg_RingCap Tablet - Dissolution",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -7678,19 +5622,19 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
+            "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Dalton_2001_Paracetamol_PO_750 mg_RingCap Tablet_as Dissolution Table",
-          "OriginText": "Paracetamol_Model_MG\nDalton_2001_Paracetamol_PO_750 mg_RingCap_asTable\n2025-10-14 14:27"
+          "Title": "Dalton_2001_Paracetamol_PO_750 mg_RingCap Tablet - Dissolution",
+          "OriginText": "Paracetamol-Model_ MG171025\nDalton_2001_Paracetamol_PO_750 mg_RingCap\n2025-10-17 15:33"
         }
       ]
     },
     {
-      "Name": "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
+      "Name": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Divoll_1982_Paracetamol_PO_Tablet_650 mg"
+        "Divoll_1982b_Paracetamol_PO_Tablet_650 mg"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -7738,7 +5682,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 650 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 650 mg|Tablet/Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -7765,8 +5709,8 @@
       "OutputMappings": [
         {
           "Scaling": "Log",
-          "Path": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Divoll_1982_Paracetamol_PO_Tablet_650 mg"
+          "Path": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg"
         }
       ],
       "Individual": "Elderly Divoll 1982",
@@ -7825,7 +5769,7 @@
             "Name": "PO 650 mg",
             "Formulations": [
               {
-                "Name": "Tablet Volak",
+                "Name": "Tablet/Capsule",
                 "Key": "Formulation"
               }
             ]
@@ -7863,7 +5807,7 @@
             {
               "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "Y": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
@@ -7871,8 +5815,8 @@
             },
             {
               "Name": "Divoll_1982_Paracetamol_PO_Tablet_650 mg-Paracetamol-Measurement",
-              "X": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|Time",
-              "Y": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|ObservedData|||Paracetamol|Measurement",
+              "X": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg|Time",
+              "Y": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -7901,6 +5845,643 @@
           },
           "Title": "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
           "OriginText": "Paracetamol_Model_MG\nDivoll_1982_Paracetamol_PO_Tablet_650 mg\n2025-10-09 11:31"
+        }
+      ]
+    },
+    {
+      "Name": "Blase_2005_Paracetamol_PO_1000 mg_fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Blase_2005_Paracetamol_PO_1000 mg_fed"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|Mixed Light Meal|Mixed Light Meal_1|Start time",
+          "Value": 15.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|PO 1000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Blase_2005_Paracetamol_PO_1000 mg_fed|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Blase_2005_Paracetamol_PO_1000 mg_fed"
+        }
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO 1000 mg",
+            "Formulations": [
+              {
+                "Name": "Dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Mixed Light Meal",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Blase_2005_Paracetamol_PO_1000 mg_fed|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Blase_2005_Paracetamol_PO_1000 mg-Paracetamol-Measurement",
+              "X": "Blase_2005_Paracetamol_PO_1000 mg_fed|Time",
+              "Y": "Blase_2005_Paracetamol_PO_1000 mg_fed|ObservedData|||Paracetamol|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Blase_2005_Paracetamol_PO_1000 mg_fed",
+          "OriginText": "Paracetamol-Model_ MG171025\nBlase_2005_Paracetamol_PO_1000 mg_fed\n2025-10-17 11:41"
+        }
+      ]
+    },
+    {
+      "Name": "Rawlins_1977_Paracetamol_IV_1000mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rawlins_1977_Paracetamol_IV_1000mg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 6.5,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|IV Inf 1000 mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 15.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Rawlins_1977_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rawlins_1977_Paracetamol_IV_1000mg"
+        }
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV Inf 1000 mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rawlins_1977_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rawlins_1977_Paracetamol_IV_1000mg-Paracetamol-Measurement",
+              "X": "Rawlins_1977_Paracetamol_IV_1000mg|time ",
+              "Y": "Rawlins_1977_Paracetamol_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Rawlins_1977_Paracetamol_IV_1000mg",
+          "OriginText": "Paracetamol-Model_ MG171025\nRawlins_1977_Paracetamol_IV_1000mg\n2025-10-17 11:51"
+        }
+      ]
+    },
+    {
+      "Name": "Souliman_2006_Paracetamol_PO_500 mg_fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Souliman_2006_Paracetamol_PO_500 mg_fed"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Souliman_2006_Paracetamol_PO_500 mg_fed"
+        }
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO 500 mg",
+            "Formulations": [
+              {
+                "Name": "Dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Standard Meal",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Souliman_2006_Paracetamol_PO_500 mg_fed|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Souliman_2006_Paracetamol_PO_fed_500 mg-Paracetamol-Measurement",
+              "X": "Souliman_2006_Paracetamol_PO_500 mg_fed|Time",
+              "Y": "Souliman_2006_Paracetamol_PO_500 mg_fed|ObservedData|||Paracetamol|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Souliman_2006_Paracetamol_PO_500 mg_fed",
+          "OriginText": "Paracetamol-Model_ MG171025\nSouliman_2006_Paracetamol_PO_500 mg_fed\n2025-10-17 11:57"
         }
       ]
     },
@@ -7958,7 +6539,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO 325 mg|Tablet Volak|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 325 mg|Tablet/Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7967,23 +6548,6 @@
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Volak_2013_Paracetamol_PO_325 mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Volak_2013_Paracetamol Sul_PO_325 mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Volak_2013_Paracetamol Glu_PO_325 mg"
-        }
       ],
       "Individual": "Male",
       "Compounds": [
@@ -8043,7 +6607,7 @@
             "Name": "PO 325 mg",
             "Formulations": [
               {
-                "Name": "Tablet Volak",
+                "Name": "Tablet/Capsule",
                 "Key": "Formulation"
               }
             ]
@@ -8184,7 +6748,1436 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Volak_2012_Paracetamol_PO_325 mg",
-          "OriginText": "Paracetamol_Model_MG\nVolak_2012_Paracetamol_PO_325 mg\n2025-10-14 14:27"
+          "OriginText": "Paracetamol-Model_ MG171025\nVolak_2013_Paracetamol_PO_325 mg\n2025-10-17 14:23"
+        }
+      ]
+    },
+    {
+      "Name": "Prescott_1980_Paracetamol_PO_20 mgkg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Prescott_1980_Paracetamol Sul_PO_20 mgkg",
+        "Prescott_1980_Paracetamol Glu_PO_20 mgkg",
+        "Prescott_1980_Paracetamol_PO_20 mgkg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 8.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|PO 20 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1",
+              "MetaboliteName": "Paracetamol sulfate"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1",
+              "MetaboliteName": "Paracetamol glucuronide"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO 20 mgkg",
+            "Formulations": [
+              {
+                "Name": "Dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Paracetamol glucuronide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-Ratio Test",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        },
+        {
+          "Name": "Paracetamol sulfate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-RatioTest",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Prescott_1980_Paracetamol_PO_20 mgkg-Paracetamol-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Prescott_1980_Paracetamol_PO_20 mgkg|Time ",
+              "Y": "Prescott_1980_Paracetamol_PO_20 mgkg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Prescott_1980_Paracetamol Glu_PO_20 mgkg-Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Prescott_1980_Paracetamol Glu_PO_20 mgkg|Time ",
+              "Y": "Prescott_1980_Paracetamol Glu_PO_20 mgkg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Prescott_1980_Paracetamol Sul_PO_20 mgkg-Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Prescott_1980_Paracetamol Sul_PO_20 mgkg|Time ",
+              "Y": "Prescott_1980_Paracetamol Sul_PO_20 mgkg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Concentration ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Prescott_1980_Paracetamol_PO_20 mgkg",
+          "OriginText": "Paracetamol_Model_MG\nPrescott_1980_Paracetamol_PO_20 mgkg\n2025-10-14 14:08"
+        }
+      ]
+    },
+    {
+      "Name": "Prescott_1980_Paracetamol_PO_12 mgkg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Prescott_1980_Paracetamol_PO_12 mgkg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 6.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|PO 12 mgkg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Paracetamol|Intestinal permeability (transcellular)",
+          "Value": 0.0024442147234,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1",
+              "MetaboliteName": "Paracetamol sulfate"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1",
+              "MetaboliteName": "Paracetamol glucuronide"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO 12 mgkg",
+            "Formulations": [
+              {
+                "Name": "Dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Paracetamol glucuronide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-Ratio Test",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        },
+        {
+          "Name": "Paracetamol sulfate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-RatioTest",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Prescott_1980_Paracetamol_PO_12 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Prescott_1980_Paracetamol_PO_12 mgkg-Paracetamol-Measurement",
+              "X": "Prescott_1980_Paracetamol_PO_12 mgkg|Time",
+              "Y": "Prescott_1980_Paracetamol_PO_12 mgkg|ObservedData|||Paracetamol|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Prescott_1980_Paracetamol_PO_12 mgkg",
+          "OriginText": "Paracetamol_Model_MG\nPrescott_1980_Paracetamol_PO_12 mgkg\n2025-10-14 14:08"
+        }
+      ]
+    },
+    {
+      "Name": "Liukas_2011_Paracetamol_IV_1000mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Liukas_2011_Paracetamol_IV_1000mg",
+        "Liukas_2011_Paracetamol Glu_IV_1000mg",
+        "Liukas_2011_Paracetamol Sul_IV_1000mg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|IV Inf 1000 mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 15.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Methoxyacetaminophen|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|NAPQI|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Methoxyacetaminophen",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-TS",
+              "SystemicProcessType": "Renal"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "NAPQI",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-TS",
+              "SystemicProcessType": "Renal"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1",
+              "MetaboliteName": "Paracetamol sulfate"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1",
+              "MetaboliteName": "Methoxyacetaminophen"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2",
+              "MetaboliteName": "NAPQI"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9",
+              "MetaboliteName": "Methoxyacetaminophen"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "NAPQI"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "NAPQI"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1",
+              "MetaboliteName": "Paracetamol glucuronide"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19",
+              "MetaboliteName": "Methoxyacetaminophen"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV Inf 1000 mg"
+          }
+        },
+        {
+          "Name": "Paracetamol glucuronide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-Ratio Test",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        },
+        {
+          "Name": "Paracetamol sulfate",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Renal Clearances-RatioTest",
+              "SystemicProcessType": "Renal"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Paracetamol sulfate-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Liukas_2011_Paracetamol_IV_1000mg-Paracetamol-Peripheral Venous Blood-Plasma-mean concentration  ",
+              "X": "Liukas_2011_Paracetamol_IV_1000mg|time ",
+              "Y": "Liukas_2011_Paracetamol_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|mean concentration  ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Liukas_2011_Paracetamol Glu_IV_1000mg-Paracetamol glucuronide-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Liukas_2011_Paracetamol Glu_IV_1000mg|Time ",
+              "Y": "Liukas_2011_Paracetamol Glu_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol glucuronide|Conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Liukas_2011_Paracetamol Sul_IV_1000mg-Paracetamol sulfate-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Liukas_2011_Paracetamol Sul_IV_1000mg|Time ",
+              "Y": "Liukas_2011_Paracetamol Sul_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol sulfate|Conc ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Liukas_2011_Paracetamol_IV_1000mg",
+          "OriginText": "Paracetamol-Model\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-16 15:23"
+        }
+      ]
+    },
+    {
+      "Name": "Divoll_1982a_Paracetamol_IV_650 mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Divoll_1982a_Paracetamol_IV_650 mg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 60.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Paracetamol|Intestinal permeability (transcellular)",
+          "Value": 0.0024042147234,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV 650 mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Divoll_1982a_Paracetamol_IV_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Divoll_1982_Paracetamol_IV_650 mg-Paracetamol-Measurement",
+              "X": "Divoll_1982a_Paracetamol_IV_650 mg|Time",
+              "Y": "Divoll_1982a_Paracetamol_IV_650 mg|ObservedData|||Paracetamol|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Divoll_1982_Paracetamol_IV_650 mg",
+          "OriginText": "Paracetamol-Model_ MG171025\nDivoll_1982a_Paracetamol_IV_650 mg\n2025-10-17 15:00"
+        }
+      ]
+    },
+    {
+      "Name": "Rawlins_1977_Paracetamol_PO_2000 mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rawlins_1977_Paracetamol_PO_2000 mg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 6.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|PO 2000 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Rawlins_1977_Paracetamol_PO_2000 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rawlins_1977_Paracetamol_PO_2000 mg"
+        }
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO 2000 mg",
+            "Formulations": [
+              {
+                "Name": "Dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rawlins_1977_Paracetamol_PO_2000 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rawlins_1977_Paracetamol_PO_fed_2000 mg-Paracetamol-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Rawlins_1977_Paracetamol_PO_2000 mg|Time ",
+              "Y": "Rawlins_1977_Paracetamol_PO_2000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Rawlins_1977_Paracetamol_PO_2000 mg",
+          "OriginText": "Paracetamol-Model_ MG171025\nRawlins_1977_Paracetamol_PO_2000 mg\n2025-10-17 16:09"
+        }
+      ]
+    },
+    {
+      "Name": "Albert_1974_Paracetamol_PO_capsule_650 mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Albert_1974_Paracetamol_PO_capsule_650 mg"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|PO 650 mg|Capsule Albert 1974|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Albert_1974_Paracetamol_PO_capsule_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Albert_1974_Paracetamol_PO_capsule_650 mg"
+        }
+      ],
+      "Individual": "Male",
+      "Compounds": [
+        {
+          "Name": "Paracetamol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated x60",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "SULT1A1-Estimated",
+              "MoleculeName": "SULT2A1"
+            },
+            {
+              "Name": "CYP2E1-Estimated",
+              "MoleculeName": "CYP2E1"
+            },
+            {
+              "Name": "CYP1A2-Laine 2009",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2C9-Laine 2009",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2D6-Laine 2009",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "CYP3A4-Laine 2009",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A1-Estimated",
+              "MoleculeName": "UGT1A1"
+            },
+            {
+              "Name": "CYP2C19-Laine 2009",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO 650 mg",
+            "Formulations": [
+              {
+                "Name": "Capsule Albert 1974",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Albert_1974_Paracetamol_PO_capsule_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Albert 325mg capsule-Paracetamol-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Albert_1974_Paracetamol_PO_capsule_650 mg|Time ",
+              "Y": "Albert_1974_Paracetamol_PO_capsule_650 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Albert_1974_Paracetamol_PO_capsule_650 mg",
+          "OriginText": "Paracetamol-Model_ MG171025\nAlbert_1974_Paracetamol_PO_capsule_325 mg\n2025-10-17 18:20"
         }
       ]
     }
@@ -8411,7 +8404,7 @@
       }
     },
     {
-      "Name": "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
+      "Name": "Rawlins_1977_Paracetamol_PO_2000 mg",
       "ExtendedProperties": [
         {
           "Name": "Source",
@@ -8456,7 +8449,7 @@
             {
               "Name": "SD ",
               "QuantityInfo": {
-                "Path": "Rawlins_1977_Paracetamol_PO_fed_2000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|SD "
+                "Path": "Rawlins_1977_Paracetamol_PO_2000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|SD "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -8477,7 +8470,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Rawlins_1977_Paracetamol_PO_fed_2000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration "
+            "Path": "Rawlins_1977_Paracetamol_PO_2000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration "
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -8494,13 +8487,13 @@
             5.388717
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
         "Name": "Time ",
         "QuantityInfo": {
-          "Path": "Rawlins_1977_Paracetamol_PO_fed_2000 mg|Time ",
+          "Path": "Rawlins_1977_Paracetamol_PO_2000 mg|Time ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -8521,7 +8514,7 @@
       }
     },
     {
-      "Name": "Albert_1974_Paracetamol_PO_capsule_325 mg",
+      "Name": "Albert_1974_Paracetamol_PO_capsule_650 mg",
       "ExtendedProperties": [
         {
           "Name": "Source",
@@ -8563,7 +8556,7 @@
         {
           "Name": "Concentration ",
           "QuantityInfo": {
-            "Path": "Albert_1974_Paracetamol_PO_capsule_325 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration "
+            "Path": "Albert_1974_Paracetamol_PO_capsule_650 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|Concentration "
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -8589,7 +8582,7 @@
       "BaseGrid": {
         "Name": "Time ",
         "QuantityInfo": {
-          "Path": "Albert_1974_Paracetamol_PO_capsule_325 mg|Time ",
+          "Path": "Albert_1974_Paracetamol_PO_capsule_650 mg|Time ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -9404,7 +9397,7 @@
       }
     },
     {
-      "Name": "Rawlins_1977_Paracetamol_IV_1000 mg",
+      "Name": "Rawlins_1977_Paracetamol_IV_1000mg",
       "ExtendedProperties": [
         {
           "Name": "Source",
@@ -9464,7 +9457,7 @@
             {
               "Name": "SEM",
               "QuantityInfo": {
-                "Path": "Rawlins_1977_Paracetamol_IV_1000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|SEM"
+                "Path": "Rawlins_1977_Paracetamol_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|SEM"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -9488,7 +9481,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Rawlins_1977_Paracetamol_IV_1000 mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|conc "
+            "Path": "Rawlins_1977_Paracetamol_IV_1000mg|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|conc "
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -9514,7 +9507,7 @@
       "BaseGrid": {
         "Name": "time ",
         "QuantityInfo": {
-          "Path": "Rawlins_1977_Paracetamol_IV_1000 mg|time ",
+          "Path": "Rawlins_1977_Paracetamol_IV_1000mg|time ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -10003,180 +9996,24 @@
       }
     },
     {
-      "Name": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix",
+      "Name": "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "Data.xlsx.Dalton2001 Diss 750mg Matrix",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Data",
-          "Type": "String"
-        },
-        {
           "Name": "Sheet",
-          "Value": "Dalton2001 Diss 750mg Matrix",
+          "Value": "Dalton_2001_Paracetamol_PO_",
           "Type": "String"
         },
         {
           "Name": "Molecule",
           "Value": "Paracetamol",
           "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Undefined",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Undefined",
-          "Type": "String"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Dalton 2001",
-          "Type": "String"
-        },
-        {
-          "Name": "Patient Id",
-          "Value": "Dissolution Matrix",
-          "Type": "String"
         }
       ],
       "Columns": [
         {
-          "Name": "% dissolved",
+          "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix|ObservedData|Undefined|Undefined|Paracetamol|% dissolved"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            0.0,
-            0.1051282,
-            0.1974359,
-            0.2897436,
-            0.3589743,
-            0.4179487,
-            0.4769231,
-            0.5384615,
-            0.5974359,
-            0.6538461,
-            0.7128205,
-            0.7615385,
-            0.8102564,
-            0.8538461,
-            0.8871795,
-            0.9205128,
-            0.9461539,
-            0.9692308,
-            0.9897436,
-            1.0
-          ],
-          "Dimension": "Fraction"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0,
-          1.0,
-          2.0,
-          3.0,
-          4.0,
-          5.0,
-          6.0,
-          7.0,
-          8.0,
-          9.0,
-          10.0,
-          11.0,
-          12.0,
-          13.0,
-          14.0,
-          15.0,
-          16.0,
-          17.0,
-          18.0,
-          19.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Data.xlsx.Dalton2001 Diss 750mg RingCap",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Data",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Dalton2001 Diss 750mg RingCap",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Undefined",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Undefined",
-          "Type": "String"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Dalton 2001",
-          "Type": "String"
-        },
-        {
-          "Name": "Patient Id",
-          "Value": "Dissolution RingCap",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "% dissolved",
-          "QuantityInfo": {
-            "Path": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|ObservedData|Undefined|Undefined|Paracetamol|% dissolved"
+            "Path": "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -10221,9 +10058,9 @@
         }
       ],
       "BaseGrid": {
-        "Name": "Time ",
+        "Name": "Time",
         "QuantityInfo": {
-          "Path": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|Time ",
+          "Path": "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -10365,7 +10202,7 @@
             1.2082001
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -10482,7 +10319,7 @@
             5.15
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10512,7 +10349,7 @@
       }
     },
     {
-      "Name": "Blase_2005_Paracetamol_PO_1000 mg",
+      "Name": "Blase_2005_Paracetamol_PO_1000 mg_fed",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -10547,7 +10384,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Blase_2005_Paracetamol_PO_1000 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Blase_2005_Paracetamol_PO_1000 mg_fed|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -10580,7 +10417,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Blase_2005_Paracetamol_PO_1000 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Blase_2005_Paracetamol_PO_1000 mg_fed|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -10616,7 +10453,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Blase_2005_Paracetamol_PO_1000 mg|Time",
+          "Path": "Blase_2005_Paracetamol_PO_1000 mg_fed|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -11040,7 +10877,7 @@
       }
     },
     {
-      "Name": "Souliman_2006_Paracetamol_PO_fed_500 mg",
+      "Name": "Souliman_2006_Paracetamol_PO_500 mg_fed",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -11075,7 +10912,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Souliman_2006_Paracetamol_PO_fed_500 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -11102,7 +10939,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Souliman_2006_Paracetamol_PO_fed_500 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -11132,7 +10969,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Souliman_2006_Paracetamol_PO_fed_500 mg|Time",
+          "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -11914,7 +11751,7 @@
       }
     },
     {
-      "Name": "Divoll_1982_Paracetamol_IV_650 mg",
+      "Name": "Divoll_1982a_Paracetamol_IV_650 mg",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -11949,7 +11786,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Divoll_1982_Paracetamol_IV_650 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Divoll_1982a_Paracetamol_IV_650 mg|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -11976,7 +11813,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Divoll_1982_Paracetamol_IV_650 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Divoll_1982a_Paracetamol_IV_650 mg|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -12005,7 +11842,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Divoll_1982_Paracetamol_IV_650 mg|Time",
+          "Path": "Divoll_1982a_Paracetamol_IV_650 mg|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -12032,7 +11869,7 @@
       }
     },
     {
-      "Name": "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
+      "Name": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -12067,7 +11904,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -12094,7 +11931,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -12123,7 +11960,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Divoll_1982_Paracetamol_PO_Tablet_650 mg|Time",
+          "Path": "Divoll_1982b_Paracetamol_PO_Tablet_650 mg|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -12150,7 +11987,7 @@
       }
     },
     {
-      "Name": "Divoll_1982_Paracetamol_PO_650 mg",
+      "Name": "Divoll_1982b_Paracetamol_PO_650 mg",
       "ExtendedProperties": [
         {
           "Name": "Sheet",
@@ -12185,7 +12022,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Divoll_1982_Paracetamol_PO_650 mg|ObservedData|||Paracetamol|Error"
+                "Path": "Divoll_1982b_Paracetamol_PO_650 mg|ObservedData|||Paracetamol|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -12213,7 +12050,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Divoll_1982_Paracetamol_PO_650 mg|ObservedData|||Paracetamol|Measurement"
+            "Path": "Divoll_1982b_Paracetamol_PO_650 mg|ObservedData|||Paracetamol|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -12243,7 +12080,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Divoll_1982_Paracetamol_PO_650 mg|Time",
+          "Path": "Divoll_1982b_Paracetamol_PO_650 mg|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -12596,11 +12433,97 @@
         "Dimension": "Time",
         "Unit": "h"
       }
+    },
+    {
+      "Name": "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Dalton_2001_Paracetamol_PO_",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Paracetamol",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix|ObservedData|||Paracetamol|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 151.16
+          },
+          "Values": [
+            0.0,
+            0.1051282,
+            0.1974359,
+            0.2897436,
+            0.3589743,
+            0.4179487,
+            0.4769231,
+            0.5384615,
+            0.5974359,
+            0.6538461,
+            0.7128205,
+            0.7615385,
+            0.8102564,
+            0.8538461,
+            0.8871795,
+            0.9205128,
+            0.9461539,
+            0.9692308,
+            0.9897436,
+            1.0
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          12.0,
+          13.0,
+          14.0,
+          15.0,
+          16.0,
+          17.0,
+          18.0,
+          19.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "SimulationComparisons": [
     {
-      "Name": "Dalton_2001 COmparison of Disso Profiles",
+      "Name": "Dalton_2001 Comparison of Disso Profiles",
       "Simulations": [
         "Dalton_2001_Paracetamol_PO_750 mg_Matrix",
         "Dalton_2001_Paracetamol_PO_750 mg_RingCap",
@@ -12752,7 +12675,7 @@
             }
           }
         ],
-        "Name": "Dalton_2001 COmparison of Disso Profiles",
+        "Name": "Dalton_2001 Comparison of Disso Profiles",
         "FontAndSize": {
           "Fonts": {
             "AxisSize": 10,
@@ -12789,7 +12712,7 @@
     {
       "Name": "Blase_2005",
       "Classifiables": [
-        "Blase_2005_Paracetamol_PO_1000 mg"
+        "Blase_2005_Paracetamol_PO_1000 mg_fed"
       ]
     },
     {
@@ -12806,7 +12729,7 @@
       "Name": "Souliman_2006",
       "Classifiables": [
         "Souliman_2006_Paracetamol_PO_500 mg",
-        "Souliman_2006_Paracetamol_PO_fed_500 mg"
+        "Souliman_2006_Paracetamol_PO_500 mg_fed"
       ]
     },
     {
@@ -12821,8 +12744,8 @@
       "Classifiables": [
         "Rawlins_1977_Paracetamol_PO_500 mg",
         "Rawlins_1977_Paracetamol_PO_1000 mg",
-        "Rawlins_1977_Paracetamol_PO_fed_2000 mg",
-        "Rawlins_1977_Paracetamol_IV_1000 mg"
+        "Rawlins_1977_Paracetamol_PO_2000 mg",
+        "Rawlins_1977_Paracetamol_IV_1000mg"
       ]
     },
     {
@@ -12837,8 +12760,8 @@
         "Dalton_2001_Paracetamol_PO 650 mg",
         "Dalton_2001_Paracetamol_PO_750 mg_Matrix",
         "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap",
-        "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix",
-        "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap"
+        "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix",
+        "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap"
       ]
     },
     {
@@ -12861,7 +12784,7 @@
     {
       "Name": "Albert_1974",
       "Classifiables": [
-        "Albert_1974_Paracetamol_PO_capsule_325 mg",
+        "Albert_1974_Paracetamol_PO_capsule_650 mg",
         "Albert_1974_Paracetamol_PO_tablet_650 mg"
       ]
     },
@@ -12876,9 +12799,9 @@
     {
       "Name": "Divoll_1982",
       "Classifiables": [
-        "Divoll_1982_Paracetamol_IV_650 mg",
-        "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
-        "Divoll_1982_Paracetamol_PO_650 mg"
+        "Divoll_1982a_Paracetamol_IV_650 mg",
+        "Divoll_1982b_Paracetamol_PO_Tablet_650 mg",
+        "Divoll_1982b_Paracetamol_PO_650 mg"
       ]
     }
   ],
@@ -12889,14 +12812,15 @@
         "Clements_1984_Paracetamol_PO_20 mgkg",
         "Clements_1984_Paracetamol_PO_5 mgkg",
         "Dalton_2001_Paracetamol_PO 650 mg",
-        "Prescott_1980_Paracetamol_PO_12 mgkg",
         "Novo NN2211-1698_2009_Paracetamol_PO_1000 mg",
-        "Prescott_1980_Paracetamol_PO_20 mgkg",
-        "Divoll_1982_Paracetamol_PO_650 mg",
+        "Divoll_1982b_Paracetamol_PO_650 mg",
         "Rawlins_1977_Paracetamol_PO_1000 mg",
         "Rawlins_1977_Paracetamol_PO_500 mg",
         "Souliman_2006_Paracetamol_PO_500 mg",
-        "Van der Veen_1994_Paracetamol_PO_300 mg"
+        "Van der Veen_1994_Paracetamol_PO_300 mg",
+        "Prescott_1980_Paracetamol_PO_20 mgkg",
+        "Prescott_1980_Paracetamol_PO_12 mgkg",
+        "Rawlins_1977_Paracetamol_PO_2000 mg"
       ]
     },
     {
@@ -12904,21 +12828,21 @@
       "Classifiables": [
         "Clements_1984_Paracetamol_IV_20 mgkg",
         "Clements_1984_Paracetamol_IV_5 mgkg",
-        "Divoll_1982_Paracetamol_IV_650 mg",
+        "Prescott_1980_Paracetamol_IV_12 mgkg",
+        "Rawlins_1977_Paracetamol_IV_1000mg",
         "Liukas_2011_Paracetamol_IV_1000mg",
-        "Prescott_1980_Paracetamol_IV_12 mgkg"
+        "Divoll_1982a_Paracetamol_IV_650 mg"
       ]
     },
     {
       "Name": "Tablet/Capsule",
       "Classifiables": [
-        "Albert_1974_Paracetamol_PO_capsule_325 mg",
         "Albert_1974_Paracetamol_PO_tablet_650 mg",
         "Dalton_2001_Paracetamol_PO_750 mg_Matrix",
         "Dalton_2001_Paracetamol_PO_750 mg_RingCap",
-        "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable",
-        "Divoll_1982_Paracetamol_PO_Tablet_650 mg",
-        "Volak_2013_Paracetamol_PO_325 mg"
+        "Divoll_1982b_Paracetamol_PO_Tablet_650 mg",
+        "Volak_2013_Paracetamol_PO_325 mg",
+        "Albert_1974_Paracetamol_PO_capsule_650 mg"
       ]
     },
     {
@@ -12926,7 +12850,8 @@
       "Classifiables": [
         "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg",
         "Paintaud_1998_Paracetamol_PO_fed_1000 mg",
-        "Rawlins_1977_Paracetamol_PO_fed_2000 mg"
+        "Blase_2005_Paracetamol_PO_1000 mg_fed",
+        "Souliman_2006_Paracetamol_PO_500 mg_fed"
       ]
     }
   ]

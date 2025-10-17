@@ -1,10 +1,14 @@
-**Albert 1974** Albert KS, Sedman AJ, Wagner JG. Pharmacokinetics of orally administered acetaminophen in man. J Pharmacokinet Biopharm. 1974 Oct;2(5):381-93. doi: 10.1007/BF01071309.
+**Albert 1974** Albert KS, Sedman AJ, Wagner JG. Albert KS, Sedman AJ, Wilkinson P, Stoll RG, Murray WJ, Wagner JG. Bioavailability studies of acetaminophen and nitrofurantoin. J Clin Pharmacol. 1974 May-Jun;14(5-6):264-70. doi: 10.1002/j.1552-4604.1974.tb02312.x. 
 
 **Ameer 1983** Ameer B, Divoll M, Abernethy DR, Greenblatt DJ, Shargel L. Absolute and relative bioavailability of oral acetaminophen preparations. J Pharm Sci. 1983 Aug;72(8):955-8. doi: 10.1002/jps.2600720832. 
 
+**ChemicalBook** Paracetamol. ChemicalBook Database. https://www.chemicalbook.com/ChemicalProductProperty_DE_CB1413658.htm Accessed 17/10/2025.
+
 **Clements 1984** Clements JA, Critchley JA, Prescott LF. The role of sulphate conjugation in the metabolism and disposition of oral and intravenous paracetamol in man. Br J Clin Pharmacol. 1984 Oct;18(4):481-5. doi: 10.1111/j.1365-2125.1984.tb02495.x.
 
-**Divoll 1982** Divoll M, Abernethy DR, Ameer B, Greenblatt DJ. Acetaminophen kinetics in the elderly. Clin Pharmacol Ther. 1982 Feb;31(2):151-6. doi: 10.1038/clpt.1982.24.
+**Divoll 1982a** Divoll M, Abernethy DR, Ameer B, Greenblatt DJ. Acetaminophen kinetics in the elderly. Clin Pharmacol Ther. 1982 Feb;31(2):151-6. doi: 10.1038/clpt.1982.24.
+
+**Divoll 1982b** Divoll M, Greenblatt DJ, Ameer B, Abernethy DR. Effect of food on acetaminophen absorption in young and elderly subjects. J Clin Pharmacol. 1982 Nov-Dec;22(11-12):571-6. doi: 10.1002/j.1552-4604.1982.tb02651.x.
 
 **Dalton 2001** Dalton JT, Straughn AB, Dickason DA, Grandolfi GP. Predictive ability of level A in vitro-in vivo correlation for ringcap controlled-release acetaminophen tablets. Pharm Res. 2001 Dec;18(12):1729-34. doi: 10.1023/a:1013326714345.
 
@@ -16,11 +20,17 @@
 
 **Johnson 2018** TN, Bonner JJ, Tucker GT, Turner DB, Jamei M. Development and applications of a physiologically-based model of paediatric oral drug absorption. Eur J Pharm Sci. 2018 Mar 30;115:57-67. doi: 10.1016/j.ejps.2018.01.009. 
 
+**Kalantzi 2006** Kalantzi L, Reppas C, Dressman JB, Amidon GL, Junginger HE, Midha KK, Shah VP, Stavchansky SA, Barends DM. Biowaiver monographs for immediate release solid oral dosage forms: acetaminophen (paracetamol). J Pharm Sci. 2006 Jan;95(1):4-14. doi: 10.1002/jps.20477.
+
 **Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134.
 
 **Liukas 2011** Liukas A, Kuusniemi K, Aantaa R, Virolainen P, Niemi M, Neuvonen PJ, Olkkola KT. Pharmacokinetics of intravenous paracetamol in elderly patients. Clin Pharmacokinet. 2011 Feb;50(2):121-9. doi: 10.2165/11537240-000000000-00000. 
 
 **Mian 2020** Mian P, van den Anker JN, van Calsteren K, Annaert P, Tibboel D, Pfister M, Allegaert K, Dallmann A. Physiologically Based Pharmacokinetic Modeling to Characterize Acetaminophen Pharmacokinetics and N-Acetyl-p-Benzoquinone Imine (NAPQI) Formation in Non-Pregnant and Pregnant Women. Clin Pharmacokinet. 2020 Jan;59(1):97-110. doi: 10.1007/s40262-019-00799-5. 
+
+**Novo Nordisk 2009** Novo Nordisk A/S D, 2009. Effect of Liraglutide on Absorption of Paracetamol in Subjects With Type 2 Diabetes. Clinical Trial Report Trial ID NN2211-1698.
+
+**Novo Nordisk 2012** Novo Nordisk A/S D, 2012. A Randomised, Placebo-controlled, Double-blind, Incomplete Cross-over Design Trial to Evaluate the Effects of Liraglutide on Gastric Emptying, Energy Expenditure and Appetite, and to Evaluate Liraglutide Pharmacokinetics in Non-diabetic Obese Subjects. Clinical Trial Report Trial ID NN8022-3630.
 
 **Novo Nordisk 2012** Novo Nordisk A/S D, 2012. A Randomised, Placebo-controlled, Double-blind, Incomplete Cross-over Design Trial to Evaluate the Effects of Liraglutide on Gastric Emptying, Energy Expenditure and Appetite, and to Evaluate Liraglutide Pharmacokinetics in Non-diabetic Obese Subjects. Clinical Trial Report Trial ID NN8022-3630.
 
@@ -30,7 +40,20 @@
 
 **Prescott 1980** Prescott LF. Kinetics and metabolism of paracetamol and phenacetin. Br J Clin Pharmacol. 1980 Oct;10 Suppl 2(Suppl 2):291S-298S. doi: 10.1111/j.1365-2125.1980.tb01812.x. 
 
-**PubChem** https://pubchem.ncbi.nlm.nih.gov/compound/3-Methoxyacetaminophen
+**PubChem-a** PubChem database. Acetaminophen. https://pubchem.ncbi.nlm.nih.gov/compound/1983
+Accessed 17/10/2025.
+
+**PubChem-g** PubChem database. Acetaminophen glucuronide. https://pubchem.ncbi.nlm.nih.gov/compound/83944
+Accessed 17/10/2025.
+
+**PubChem-s** PubChem database. Acetaminophen sulfate. https://pubchem.ncbi.nlm.nih.gov/compound/83939
+Accessed 17/10/2025.
+
+**PubChem-n** PubChem database. Acetimidoquinone. https://pubchem.ncbi.nlm.nih.gov/compound/39763
+Accessed 17/10/2025.
+
+**PubChem-m** PubChem database. Methoxyacetaminophen. https://pubchem.ncbi.nlm.nih.gov/compound/3080594
+Accessed 17/10/2025.
 
 **Rawlins 1977** Rawlins MD, Henderson DB, Hijab AR. Pharmacokinetics of paracetamol (acetaminophen) after intravenous and oral administration. Eur J Clin Pharmacol. 1977 Apr 20;11(4):283-6. doi: 10.1007/BF00607678.
 
