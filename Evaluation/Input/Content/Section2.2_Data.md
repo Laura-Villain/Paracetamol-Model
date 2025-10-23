@@ -2,7 +2,7 @@
 
 A literature search was performed to collect available information on physicochemical properties of paracetamol. The obtained information from literature is summarized in the table below. 
 
-| **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
+| **Parameter**   | **Unit** | **Value** | **Source**                                     | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
 | **Paracetamol**   |  |  |  | |
 | MW              | g/mol    |  151         | [PubmChem-a](#main-references)               | Molecular weight|
@@ -39,7 +39,7 @@ A literature search was performed to collect available clinical data on paraceta
 
 The following studies were used for model building and evaluation:
 
-| Publication                 | Dose | Route| Dosing | Formulation
+| **Publication**                 | **Dose** | **Route**| **Dosing** | **Formulation**
 | :---------------|----------- |-------| -------|---------- |
 | [Clements 1984](#main-references) | 5 mg/kg | IV|single-dose
 | [Prescott 1980](#main-references) | 12 mg/Kg | IV|single-dose
