@@ -52,7 +52,6 @@ The following studies were used for model building and evaluation:
 | [Prescott 1980](#main-references) | 20 mg/Kg | Oral| single-dose, fasted-state|IR/dissolved|
 | [Clements 1984](#main-references) | 20 mg/kg | Oral| single-dose, fasted-state| IR/dissolved formulation   |
 | [van der Veen 1994](#main-references) | 300 mg | Oral|single-dose, fasted-state| IR/dissolved formulation    |
-| [Souliman 2006](#main-references) | 500 mg | Oral| single-dose, fasted-state| IR/dissolved formulation    |
 | [Dalton 2001](#main-references) | 650 mg | Oral| single-dose, fasted-state| IR/dissolved formulation   |
 | [Divoll 1982-b](#main-references) | 650 mg | Oral| single-dose, fasted-state| IR/dissolved formulation  |
 | [Rawlins 1977](#main-references) | 500, 1000 mg | Oral|single-dose, fasted-state|IR/dissolved formulation |
