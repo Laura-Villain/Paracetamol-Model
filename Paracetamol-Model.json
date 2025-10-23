@@ -3405,7 +3405,7 @@
       "OutputMappings": [
         {
           "Scaling": "Log",
-          "Path": "Divoll_1982_Paracetamol_PO_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "Path": "Divoll_1982b_Paracetamol_PO_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
           "ObservedData": "Divoll_1982b_Paracetamol_PO_650 mg"
         }
       ],
@@ -3967,208 +3967,6 @@
           },
           "Title": "Rawlins_1977_Paracetamol_PO_500 mg",
           "OriginText": "Paracetamol_Model_MG\nRawlins_1977_Paracetamol_PO_500 mg\n2025-10-14 14:07"
-        }
-      ]
-    },
-    {
-      "Name": "Souliman_2006_Paracetamol_PO_500 mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Souliman_2006_Paracetamol_PO_500 mg"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 10.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Souliman_2006_Paracetamol_PO_500 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Souliman_2006_Paracetamol_PO_500 mg"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO 500 mg",
-            "Formulations": [
-              {
-                "Name": "Dissolved",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Souliman_2006_Paracetamol_PO_500 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Souliman_2006_Paracetamol_PO_500 mg-Paracetamol-Measurement",
-              "X": "Souliman_2006_Paracetamol_PO_500 mg|Time",
-              "Y": "Souliman_2006_Paracetamol_PO_500 mg|ObservedData|||Paracetamol|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Souliman_2006_Paracetamol_PO_500 mg",
-          "OriginText": "Paracetamol-Model_ MG171025\nSouliman_2006_Paracetamol_PO_500 mg\n2025-10-17 18:08"
         }
       ]
     },
@@ -5224,6 +5022,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5507,6 +5306,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6271,217 +6071,6 @@
           },
           "Title": "Rawlins_1977_Paracetamol_IV_1000mg",
           "OriginText": "Paracetamol-Model_ MG171025\nRawlins_1977_Paracetamol_IV_1000mg\n2025-10-17 11:51"
-        }
-      ]
-    },
-    {
-      "Name": "Souliman_2006_Paracetamol_PO_500 mg_fed",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Souliman_2006_Paracetamol_PO_500 mg_fed"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 10.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|PO 500 mg|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Souliman_2006_Paracetamol_PO_500 mg_fed"
-        }
-      ],
-      "Individual": "Male",
-      "Compounds": [
-        {
-          "Name": "Paracetamol",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated x60",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "SULT1A1-Estimated",
-              "MoleculeName": "SULT2A1"
-            },
-            {
-              "Name": "CYP2E1-Estimated",
-              "MoleculeName": "CYP2E1"
-            },
-            {
-              "Name": "CYP1A2-Laine 2009",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2C9-Laine 2009",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2D6-Laine 2009",
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "CYP3A4-Laine 2009",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "UGT1A1-Estimated",
-              "MoleculeName": "UGT1A1"
-            },
-            {
-              "Name": "CYP2C19-Laine 2009",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO 500 mg",
-            "Formulations": [
-              {
-                "Name": "Dissolved",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h"
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Souliman_2006_Paracetamol_PO_500 mg_fed|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Souliman_2006_Paracetamol_PO_fed_500 mg-Paracetamol-Measurement",
-              "X": "Souliman_2006_Paracetamol_PO_500 mg_fed|Time",
-              "Y": "Souliman_2006_Paracetamol_PO_500 mg_fed|ObservedData|||Paracetamol|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Souliman_2006_Paracetamol_PO_500 mg_fed",
-          "OriginText": "Paracetamol-Model_ MG171025\nSouliman_2006_Paracetamol_PO_500 mg_fed\n2025-10-17 11:57"
         }
       ]
     },
@@ -10757,246 +10346,6 @@
       }
     },
     {
-      "Name": "Souliman_2006_Paracetamol_PO_500 mg",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Souliman_2006",
-          "Type": "String"
-        },
-        {
-          "Name": "Dose",
-          "Value": "500",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO",
-          "Type": "String"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Souliman_2006",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "Souliman_2006_Paracetamol_PO_500 mg|ObservedData|||Paracetamol|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "GeometricStdDev",
-                "MolWeight": 151.16
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN"
-              ],
-              "Dimension": "Dimensionless"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Souliman_2006_Paracetamol_PO_500 mg|ObservedData|||Paracetamol|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            0.0,
-            8.932899,
-            15.4573011,
-            17.652401,
-            16.25,
-            14.6037,
-            13.5061,
-            13.811,
-            10.7012005,
-            8.5671,
-            5.9451,
-            3.20119977,
-            1.92070007,
-            1.15850008
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Souliman_2006_Paracetamol_PO_500 mg|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0,
-          0.166,
-          0.329999983,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.5,
-          2.0,
-          3.0,
-          4.0,
-          6.0,
-          8.0,
-          10.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Souliman_2006_Paracetamol_PO_500 mg_fed",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Souliman_2006",
-          "Type": "String"
-        },
-        {
-          "Name": "Dose",
-          "Value": "500",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Paracetamol",
-          "Type": "String"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO_fed",
-          "Type": "String"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Souliman_2006",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|ObservedData|||Paracetamol|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "GeometricStdDev",
-                "MolWeight": 151.16
-              },
-              "Values": [
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN",
-                "NaN"
-              ],
-              "Dimension": "Dimensionless"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|ObservedData|||Paracetamol|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 151.16
-          },
-          "Values": [
-            0.0,
-            0.7622,
-            3.1098,
-            6.189,
-            10.3659,
-            11.4024,
-            11.9207,
-            14.5732,
-            10.4878,
-            8.2317,
-            6.7683,
-            2.8963,
-            1.95119989,
-            1.128
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Souliman_2006_Paracetamol_PO_500 mg_fed|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0,
-          0.166,
-          0.329999983,
-          0.5,
-          0.75,
-          1.0,
-          1.25,
-          1.5,
-          2.0,
-          3.0,
-          4.0,
-          6.0,
-          8.0,
-          10.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Paintaud_1998_Paracetamol_PO_fed_1000 mg",
       "ExtendedProperties": [
         {
@@ -12526,8 +11875,7 @@
       "Name": "Dalton_2001 Comparison of Disso Profiles",
       "Simulations": [
         "Dalton_2001_Paracetamol_PO_750 mg_Matrix",
-        "Dalton_2001_Paracetamol_PO_750 mg_RingCap",
-        "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable"
+        "Dalton_2001_Paracetamol_PO_750 mg_RingCap"
       ],
       "IndividualComparison": {
         "Axes": [
@@ -12609,30 +11957,6 @@
             }
           },
           {
-            "Name": "Dalton 2001.Dissolution RingCap-Paracetamol-Undefined-Undefined-% dissolved",
-            "X": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|Time ",
-            "Y": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution RingCap|ObservedData|Undefined|Undefined|Paracetamol|% dissolved",
-            "CurveOptions": {
-              "yAxisType": "Y2",
-              "Color": "#FF0000",
-              "LegendIndex": 3,
-              "LineStyle": "None",
-              "Symbol": "Triangle"
-            }
-          },
-          {
-            "Name": "Dalton 2001.Dissolution Matrix-Paracetamol-Undefined-Undefined-% dissolved",
-            "X": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix|Time ",
-            "Y": "Dalton_2001_Paracetamol_PO_750 mg_Dissolution Matrix|ObservedData|Undefined|Undefined|Paracetamol|% dissolved",
-            "CurveOptions": {
-              "yAxisType": "Y2",
-              "Color": "#0000FF",
-              "LegendIndex": 4,
-              "LineStyle": "None",
-              "Symbol": "Circle"
-            }
-          },
-          {
             "Name": "Dalton 2001.750 mg.oral tablet.Matrix-Paracetamol-Peripheral Venous Blood-Plasma-conc ",
             "X": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|Time ",
             "Y": "Dalton_2001_Paracetamol_PO_750 mg_Matrix|ObservedData|Peripheral Venous Blood|Plasma|Paracetamol|conc ",
@@ -12652,26 +11976,6 @@
               "LegendIndex": 6,
               "LineStyle": "None",
               "Symbol": "Triangle"
-            }
-          },
-          {
-            "Name": "Dalton 2001 750mg RingCap as table v12-Paracetamol-Peripheral Venous Blood-Plasma-Concentration",
-            "X": "Time",
-            "Y": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-            "CurveOptions": {
-              "Color": "#FF00FF",
-              "LegendIndex": 1
-            }
-          },
-          {
-            "Name": "Dalton 2001 750mg RingCap as table v12-Paracetamol-Lumen-Fraction dissolved",
-            "X": "Time",
-            "Y": "Dalton_2001_Paracetamol_PO_750 mg_RingCap_asTable|Organism|Lumen|Paracetamol|Fraction dissolved",
-            "CurveOptions": {
-              "yAxisType": "Y2",
-              "Color": "#FF0000",
-              "LegendIndex": 2,
-              "LineStyle": "Dash"
             }
           }
         ],
@@ -12726,13 +12030,6 @@
       ]
     },
     {
-      "Name": "Souliman_2006",
-      "Classifiables": [
-        "Souliman_2006_Paracetamol_PO_500 mg",
-        "Souliman_2006_Paracetamol_PO_500 mg_fed"
-      ]
-    },
-    {
       "Name": "Paintaud_1998",
       "Classifiables": [
         "Paintaud_1998_Paracetamol_PO_fed_1000 mg",
@@ -12760,8 +12057,8 @@
         "Dalton_2001_Paracetamol_PO 650 mg",
         "Dalton_2001_Paracetamol_PO_750 mg_Matrix",
         "Dalton_2001_Paracetamol_PO_750 mg_Ring Cap",
-        "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix",
-        "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap"
+        "Dalton_2001_Paracetamol_PO_750 mg_DissoRingCap",
+        "Dalton_2001_Paracetamol_PO_750 mg_DissoMatrix"
       ]
     },
     {
@@ -12816,7 +12113,6 @@
         "Divoll_1982b_Paracetamol_PO_650 mg",
         "Rawlins_1977_Paracetamol_PO_1000 mg",
         "Rawlins_1977_Paracetamol_PO_500 mg",
-        "Souliman_2006_Paracetamol_PO_500 mg",
         "Van der Veen_1994_Paracetamol_PO_300 mg",
         "Prescott_1980_Paracetamol_PO_20 mgkg",
         "Prescott_1980_Paracetamol_PO_12 mgkg",
@@ -12850,8 +12146,7 @@
       "Classifiables": [
         "Novo NN8022-3630_2012_Paracetamol_PO_fed_1500 mg",
         "Paintaud_1998_Paracetamol_PO_fed_1000 mg",
-        "Blase_2005_Paracetamol_PO_1000 mg_fed",
-        "Souliman_2006_Paracetamol_PO_500 mg_fed"
+        "Blase_2005_Paracetamol_PO_1000 mg_fed"
       ]
     }
   ]
