@@ -3266,18 +3266,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -3699,17 +3688,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -3912,17 +3890,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -4124,17 +4091,6 @@
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -4346,17 +4302,6 @@
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -4575,17 +4520,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -4799,17 +4733,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -5017,17 +4940,6 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
             }
@@ -5302,17 +5214,6 @@
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -5820,17 +5721,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -6263,7 +6153,7 @@
               "Y": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 1
+                "LegendIndex": 3
               }
             },
             {
@@ -6281,7 +6171,7 @@
               "Y": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#008000",
-                "LegendIndex": 3
+                "LegendIndex": 1
               }
             },
             {
@@ -6290,7 +6180,7 @@
               "Y": "Volak_2013_Paracetamol Sul_PO_325 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#008000",
-                "LegendIndex": 4,
+                "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -6301,7 +6191,7 @@
               "Y": "Volak_2013_Paracetamol_PO_325 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 5,
+                "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -6312,7 +6202,7 @@
               "Y": "Volak_2013_Paracetamol Glu_PO_325 mg|ObservedData|||Paracetamol|Measurement",
               "CurveOptions": {
                 "Color": "#0000FF",
-                "LegendIndex": 6,
+                "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -6521,17 +6411,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -6685,9 +6564,14 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
+        "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Prescott_1980_Paracetamol_PO_12 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Prescott_1980_Paracetamol_PO_12 mgkg"
+        }
       ],
       "Individual": "Male",
       "Compounds": [
@@ -6848,7 +6732,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Prescott_1980_Paracetamol_PO_12 mgkg",
-          "OriginText": "Paracetamol_Model_MG\nPrescott_1980_Paracetamol_PO_12 mgkg\n2025-10-14 14:08"
+          "OriginText": "Paracetamol-Model\nPrescott_1980_Paracetamol_PO_12 mgkg\n2025-10-23 16:35"
         }
       ]
     },
@@ -7114,7 +6998,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 7,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Cross"
               }
             },
             {
@@ -7490,25 +7374,14 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µg/ml",
+              "Unit": "µmol/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -7710,18 +7583,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -8076,7 +7938,7 @@
             5.388717
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
