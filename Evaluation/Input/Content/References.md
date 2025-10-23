@@ -61,8 +61,6 @@ Accessed 17/10/2025.
 
 **Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 	
 
-**Souliman 2006** Souliman S, Blanquet S, Beyssac E, Cardot JM. A level A in vitro/in vivo correlation in fasted and fed states using different methods: applied to solid immediate release oral dosage form. Eur J Pharm Sci. 2006 Jan;27(1):72-9. doi: 10.1016/j.ejps.2005.08.006.  
-
 **Statelova 2020** Statelova M, Holm R, Fotaki N, Reppas C, Vertzoni M. Successful Extrapolation of Paracetamol Exposure from Adults to Infants After Oral Administration of a Pediatric Aqueous Suspension Is Highly Dependent on the Study Dosing Conditions. AAPS J. 2020 Sep 30;22(6):126. doi: 10.1208/s12248-020-00504-6.
 
 **van der Veen 1994** van der Veen J, Eissens AC, Lerk CF. Controlled release of paracetamol from amylodextrin tablets: in vitro and in vivo results. Pharm Res. 1994 Mar;11(3):384-7. doi: 10.1023/a:1018956819404. 
