@@ -315,7 +315,7 @@
                         ]
                     },
                     {
-                        "Caption": "Intravenous administration - Paracetamol Glu",
+                        "Caption": "Intravenous administration - Paracetamol glucuronide",
                         "Symbol": "Plus",
                         "OutputMappings": [
                             {
@@ -328,7 +328,7 @@
                         ]
                     },
                     {
-                        "Caption": "Intravenous administration - Paracetamol Sul",
+                        "Caption": "Intravenous administration - Paracetamol sulfate",
                         "Symbol": "Inverted Triangle",
                         "OutputMappings": [
                             {
@@ -341,7 +341,7 @@
                         ]
                     },
                     {
-                        "Caption": "Oral administration IR/Solution Fasted",
+                        "Caption": "Oral administration IR/Solution Fasted - Paracetamol",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
@@ -417,7 +417,7 @@
                         ]
                     },                    
                     {
-                        "Caption": "Oral administration IR/solution - Paracetamol Glu",
+                        "Caption": "Oral administration IR/solution Fasted- Paracetamol glucuronide",
                         "Symbol": "Star",
                         "OutputMappings": [
                             {
@@ -430,7 +430,7 @@
                         ]
                     },
                     {
-                        "Caption": "Oral administration IR/solution - Paracetamol Sul",
+                        "Caption": "Oral administration IR/solution Fasted - Paracetamol sulfate",
                         "Symbol": "Cross",
                         "OutputMappings": [
                             {
@@ -443,7 +443,7 @@
                         ]
                     },
                     {
-                        "Caption": "Oral administration IR/Solution Fed",
+                        "Caption": "Oral administration IR/Solution Fed - Paracetamol",
                         "Symbol": "Diamond",
                         "OutputMappings": [
 
@@ -478,7 +478,7 @@
                         ]
                     },
                     {
-                        "Caption": "Oral administration Tablet/Capsule Fasted",
+                        "Caption": "Oral administration Tablet/Capsule Fasted - Paracetamol",
                         "Symbol": "Triangle",
                         "OutputMappings": [
                             {
@@ -526,7 +526,7 @@
                         ]
                     },
                     {
-                        "Caption": "Oral administration Tablet/Capsule Fasted",
+                        "Caption": "Oral administration Tablet/Capsule Fasted - Paracetamol glucuronide",
                         "Symbol": "Triangle",
                         "OutputMappings": [
                             {
@@ -539,7 +539,7 @@
                         ]
                     },
                     {
-                        "Caption": "Oral administration Tablet/Capsule Fasted - Paracetamol Sul",
+                        "Caption": "Oral administration Tablet/Capsule Fasted - Paracetamol sulfate",
                         "Symbol": "Triangle",
                         "OutputMappings": [
                             {
