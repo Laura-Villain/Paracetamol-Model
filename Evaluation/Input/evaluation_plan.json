@@ -267,7 +267,7 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "Intravenous administration - Paracetamol",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
@@ -310,6 +310,32 @@
                                 "Simulation": "Prescott_1980_Paracetamol_IV_12 mgkg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Prescott_1980_Paracetamol_IV_12 mgkg",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Intravenous administration - Paracetamol Glu",
+                        "Symbol": "Plus",
+                        "OutputMappings": [
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Liukas_2011_Paracetamol_IV_1000mg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Liukas_2011_Paracetamol Glu_IV_1000mg",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Intravenous administration - Paracetamol Sul",
+                        "Symbol": "Inverted Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Liukas_2011_Paracetamol_IV_1000mg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Liukas_2011_Paracetamol Sul_IV_1000mg",
                                 "Color": "#FF0000"
                             }
                         ]
@@ -387,6 +413,32 @@
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van der Veen_1994_Paracetamol_PO_300 mg",
                                 "Color": "#228B22"
+                            }
+                        ]
+                    },                    
+                    {
+                        "Caption": "Oral administration IR/solution - Paracetamol Glu",
+                        "Symbol": "Star",
+                        "OutputMappings": [
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Prescott_1980_Paracetamol_PO_20 mgkg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Prescott_1980_Paracetamol Glu_PO_20 mgkg",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Oral administration IR/solution - Paracetamol Sul",
+                        "Symbol": "Cross",
+                        "OutputMappings": [
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Prescott_1980_Paracetamol_PO_20 mgkg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Prescott_1980_Paracetamol Sul_PO_20 mgkg",
+                                "Color": "#FF0000"
                             }
                         ]
                     },
@@ -469,6 +521,32 @@
                                 "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Volak_2013_Paracetamol_PO_325 mg",
+                                "Color": "#DDA0DD"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Oral administration Tablet/Capsule Fasted",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Volak_2013_Paracetamol Glu_PO_325 mg",
+                                "Color": "#DDA0DD"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Oral administration Tablet/Capsule Fasted - Paracetamol Sul",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Paracetamol",
+                                "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Volak_2013_Paracetamol Sul_PO_325 mg",
                                 "Color": "#DDA0DD"
                             }
                         ]
