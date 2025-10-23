@@ -4,7 +4,7 @@ Whole-body PBPK model for paracetamol.
 ## Repository files
 This repository contains:
 
-- a PK-Sim snapshot (*.json) file of the current whole-body PBPK model of paracetamol. The current model corresponds to a modified version of Mian et al [1].
+- a PK-Sim snapshot (*.json) file of the current whole-body PBPK model of paracetamol. The current model corresponds to a modified version of Mian et al [1](https://link.springer.com/article/10.1007/s40262-019-00799-5).
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation_plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
