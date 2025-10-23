@@ -22,6 +22,8 @@
 
 **Kalantzi 2006** Kalantzi L, Reppas C, Dressman JB, Amidon GL, Junginger HE, Midha KK, Shah VP, Stavchansky SA, Barends DM. Biowaiver monographs for immediate release solid oral dosage forms: acetaminophen (paracetamol). J Pharm Sci. 2006 Jan;95(1):4-14. doi: 10.1002/jps.20477.
 
+**Krauss 2012** Krauss M, Schaller S, Borchers S, Findeisen R, Lippert J, Kuepfer L. Integrating cellular metabolism into a multiscale whole-body model. PLoS Comput Biol. 2012;8(10):e1002750. https://doi.org/10.1371/journal.pcbi.1002750.
+
 **Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134.
 
 **Liukas 2011** Liukas A, Kuusniemi K, Aantaa R, Virolainen P, Niemi M, Neuvonen PJ, Olkkola KT. Pharmacokinetics of intravenous paracetamol in elderly patients. Clin Pharmacokinet. 2011 Feb;50(2):121-9. doi: 10.2165/11537240-000000000-00000. 
