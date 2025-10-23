@@ -6028,6 +6028,23 @@
         "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Volak_2013_Paracetamol Glu_PO_325 mg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Volak_2013_Paracetamol Sul_PO_325 mg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Volak_2013_Paracetamol_PO_325 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Volak_2013_Paracetamol_PO_325 mg"
+        }
+      ],
       "Individual": "Male",
       "Compounds": [
         {
@@ -6294,6 +6311,23 @@
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Prescott_1980_Paracetamol Glu_PO_20 mgkg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Prescott_1980_Paracetamol Sul_PO_20 mgkg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Prescott_1980_Paracetamol_PO_20 mgkg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Prescott_1980_Paracetamol_PO_20 mgkg"
+        }
       ],
       "Individual": "Male",
       "Compounds": [
@@ -6793,11 +6827,26 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Methoxyacetaminophen|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|NAPQI|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol Glu_IV_1000mg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol Sul_IV_1000mg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Liukas_2011_Paracetamol_IV_1000mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Liukas_2011_Paracetamol_IV_1000mg"
+        }
       ],
       "Individual": "Male",
       "Compounds": [
@@ -7032,7 +7081,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Liukas_2011_Paracetamol_IV_1000mg",
-          "OriginText": "Paracetamol-Model\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-16 15:23"
+          "OriginText": "Paracetamol-Model\nLiukas_2011_Paracetamol_IV_1000mg\n2025-10-23 17:36"
         }
       ]
     },
@@ -7098,6 +7147,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Divoll_1982a_Paracetamol_IV_650 mg|Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Divoll_1982a_Paracetamol_IV_650 mg"
+        }
       ],
       "Individual": "Male",
       "Compounds": [
