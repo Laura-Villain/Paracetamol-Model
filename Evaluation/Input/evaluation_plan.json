@@ -192,11 +192,6 @@
             },
             {
                 "Project": "Paracetamol",
-                "Simulation": "Souliman_2006_Paracetamol_PO_500 mg",
-                "SectionReference": "ct-profiles"
-            },
-            {
-                "Project": "Paracetamol",
                 "Simulation": "Blase_2005_Paracetamol_PO_1000 mg_fed",
                 "SectionReference": "ct-profiles"
             },
@@ -223,11 +218,6 @@
             {
                 "Project": "Paracetamol",
                 "Simulation": "Rawlins_1977_Paracetamol_PO_2000 mg",
-                "SectionReference": "ct-profiles"
-            },
-            {
-                "Project": "Paracetamol",
-                "Simulation": "Souliman_2006_Paracetamol_PO_500 mg_fed",
                 "SectionReference": "ct-profiles"
             },
             {
@@ -393,13 +383,6 @@
                             },
                             {
                                 "Project": "Paracetamol",
-                                "Simulation": "Souliman_2006_Paracetamol_PO_500 mg",
-                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Souliman_2006_Paracetamol_PO_500 mg",
-                                "Color": "#228B22"
-                            },
-                            {
-                                "Project": "Paracetamol",
                                 "Simulation": "Van der Veen_1994_Paracetamol_PO_300 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van der Veen_1994_Paracetamol_PO_300 mg",
@@ -438,13 +421,6 @@
                                 "Simulation": "Rawlins_1977_Paracetamol_PO_2000 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Rawlins_1977_Paracetamol_PO_2000 mg",
-                                "Color": "#000036"
-                            },
-                            {
-                                "Project": "Paracetamol",
-                                "Simulation": "Souliman_2006_Paracetamol_PO_500 mg_fed",
-                                "Output": "Organism|PeripheralVenousBlood|Paracetamol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Souliman_2006_Paracetamol_PO_500 mg_fed",
                                 "Color": "#000036"
                             }
                         ]
