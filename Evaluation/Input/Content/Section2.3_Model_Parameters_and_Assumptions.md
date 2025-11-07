@@ -35,7 +35,7 @@ This is the result of the final parameter identification.
 | `Vmax CYP2C19` |     1.48            |  1/min    |
 | `Km CYP2D6` |       440.00          |  μM   |
 | `Vmax CYP2D6` |     0.56            |  1/min    |
-| **Paracetamol glucurunide** |  |  |
+| **Paracetamol glucuronide** |  |  |
 | `Specific clearance for tubular secretion` | 0.352  | mL/min per ml tissue |
 | **Paracetamol sulfate** |  |  |
 | `Km Renal Clearance` | 41.4 |  μmol/l  |
