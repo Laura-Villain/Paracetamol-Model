@@ -37,8 +37,12 @@ This is the result of the final parameter identification.
 | `Vmax CYP2D6` |     0.56            |  1/min    |
 | **Paracetamol glucuronide** |  |  |
 | `Specific clearance for tubular secretion` | 0.352  | mL/min per ml tissue |
+| **Paracetamol glucuronide** |  |  |
+| `Specific clearance for tubular secretion` | 0.352  | 1/min per ml tissue |
 | **Paracetamol sulfate** |  |  |
 | `Km Renal Clearance` | 41.4 |  μmol/l  |
 | `TSmax_spec` |  82.93 |  μmol/l/min |
+| **Methoxyacetaminophen** and **NAPQI**|  |  |
+| `Specific clearance for tubular secretion` | 22.85  | 1/min per ml tissue |
 
 TSmax_spec stands for specific maximum rate for tubular secretion
