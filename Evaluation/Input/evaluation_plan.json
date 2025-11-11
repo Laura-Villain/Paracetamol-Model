@@ -323,20 +323,20 @@
                                 "Simulation": "Liukas_2011_Paracetamol_IV_1000mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Liukas_2011_Paracetamol Glu_IV_1000mg",
-                                "Color": "#FF0000"
+                                "Color": "#66ff66"
                             }
                         ]
                     },
                     {
                         "Caption": "Intravenous administration - Paracetamol sulfate",
-                        "Symbol": "Inverted Triangle",
+                        "Symbol": "CircleOpen",
                         "OutputMappings": [
                             {
                                 "Project": "Paracetamol",
                                 "Simulation": "Liukas_2011_Paracetamol_IV_1000mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Liukas_2011_Paracetamol Sul_IV_1000mg",
-                                "Color": "#FF0000"
+                                "Color": "#000099"
                             }
                         ]
                     },
@@ -425,7 +425,7 @@
                                 "Simulation": "Prescott_1980_Paracetamol_PO_20 mgkg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Prescott_1980_Paracetamol Glu_PO_20 mgkg",
-                                "Color": "#FF0000"
+                                "Color": "#b3b3b3"
                             }
                         ]
                     },
@@ -438,7 +438,7 @@
                                 "Simulation": "Prescott_1980_Paracetamol_PO_20 mgkg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Prescott_1980_Paracetamol Sul_PO_20 mgkg",
-                                "Color": "#FF0000"
+                                "Color": "#660000"
                             }
                         ]
                     },
@@ -527,27 +527,27 @@
                     },
                     {
                         "Caption": "Oral administration Tablet/Capsule Fasted - Paracetamol glucuronide",
-                        "Symbol": "Triangle",
+                        "Symbol": "Asterisk",
                         "OutputMappings": [
                             {
                                 "Project": "Paracetamol",
                                 "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol glucuronide|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Volak_2013_Paracetamol Glu_PO_325 mg",
-                                "Color": "#DDA0DD"
+                                "Color": "#cc9900"
                             }
                         ]
                     },
                     {
                         "Caption": "Oral administration Tablet/Capsule Fasted - Paracetamol sulfate",
-                        "Symbol": "Triangle",
+                        "Symbol": "SquareOpen",
                         "OutputMappings": [
                             {
                                 "Project": "Paracetamol",
                                 "Simulation": "Volak_2013_Paracetamol_PO_325 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Paracetamol sulfate|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Volak_2013_Paracetamol Sul_PO_325 mg",
-                                "Color": "#DDA0DD"
+                                "Color": "#0073e6"
                             }
                         ]
                     }
