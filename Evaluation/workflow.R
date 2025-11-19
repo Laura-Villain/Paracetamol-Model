@@ -39,7 +39,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #-------- STEP 1: Define workflow settings --------#
   #' replace `workingDirectory` and `qualificationPlanName` with your paths
   #'
-  #' The directories are assumed the following structure
+  #' The directories are assumed to have the following structure
   #' `workingDirectory`
   #'   - `input`
   #'     - `qualificationPlanName`
