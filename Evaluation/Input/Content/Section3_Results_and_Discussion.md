@@ -3,10 +3,10 @@ The PBPK model for paracetamol was developed and verified with clinical pharmaco
 The model was evaluated covering data from studies including in particular
 
 - IV administration equivalent dose range of 365 to 1460 mg 
-- oral administration equivalent dose range 300 mg to 1460 mg in the fasted state 
-- oral administration equivalent dose range 2000 mg in the fed state 
+- oral administration equivalent dose range of 300 mg to 1460 mg in the fasted state 
+- oral administration equivalent dose range of 2000 mg in the fed state 
 
-The model quantifies hepatic metabolism via isoenzymes of Cytochrome P-450 (CYP), UGT1A1, and  SULT.
+The model quantifies hepatic metabolism via isoenzymes of Cytochrome P-450 (CYP), UGT1A1, and SULT.
 
 The next sections show:
 
