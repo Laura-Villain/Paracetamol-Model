@@ -20,9 +20,9 @@ This is the result of the final parameter identification.
 | -------------------- | --------------- | ---- |
 | **Paracetamol** |  |  |
 | `GFR Fraction` |       0.19          |     |
-| `Km UGT1A1` |       462.00          |  μmol/l    |
+| `Km UGT1A1` |       462.00          |  μM    |
 | `Vmax UGT1A1` |     37.19            |  μmol/l/min    |
-| `Km SULT1A1` |       115.00          |  μmol/l    |
+| `Km SULT1A1` |       115.00          |  μM   |
 | `Vmax SULT1A1` |     9.62            |  μmol/l/min    |
 | `Km CYP3A4` |       130.00          |  μM   |
 | `Vmax CYP3A4` |     0.49            |  1/min    |
@@ -37,11 +37,11 @@ This is the result of the final parameter identification.
 | `Vmax CYP2D6` |     0.56            |  1/min    |
 | **Paracetamol glucuronide** |  |  |
 | `Specific clearance for tubular secretion` | 0.352  | mL/min per ml tissue |
-| `Specific clearance for tubular secretion` | 0.352  | 1/min per ml tissue |
 | **Paracetamol sulfate** |  |  |
-| `Km Renal Clearance` | 41.4 |  μmol/l  |
+| `Km Renal Clearance` | 41.4 |  μM  |
 | `TSmax_spec` |  82.93 |  μmol/l/min |
 | **Methoxyacetaminophen** and **NAPQI**|  |  |
+| `GFR Fraction` |     1        |     |
 | `Specific clearance for tubular secretion` | 22.85  | 1/min per ml tissue |
 
 TSmax_spec stands for specific maximum rate for tubular secretion
