@@ -6,7 +6,7 @@ The model was evaluated covering data from studies including in particular
 - oral administration equivalent dose range 300 mg to 1460 mg in the fasted state 
 - oral administration equivalent dose range 2000 mg in the fed state 
 
-The model quantifies hepatic metabolism via isoenzymes of Cytochrome P-450 (CYP), UGT1A1, and  SULT1A1.
+The model quantifies hepatic metabolism via isoenzymes of Cytochrome P-450 (CYP), UGT1A1, and  SULT.
 
 The next sections show:
 
