@@ -2,6 +2,8 @@
 
 **Ameer 1983** Ameer B, Divoll M, Abernethy DR, Greenblatt DJ, Shargel L. Absolute and relative bioavailability of oral acetaminophen preparations. J Pharm Sci. 1983 Aug;72(8):955-8. doi: 10.1002/jps.2600720832. 
 
+**Blase 2005** E, Taylor K, Gao HY, Wintle M, Fineman M. Pharmacokinetics of an oral drug (acetaminophen) administered at various times in relation to subcutaneous injection of exenatide (exendin-4) in healthy subjects. J Clin Pharmacol. 2005 May;45(5):570-7. doi: 10.1177/0091270004274432. 
+
 **ChemicalBook** Paracetamol. ChemicalBook Database. https://www.chemicalbook.com/ChemicalProductProperty_DE_CB1413658.htm Accessed 17/10/2025.
 
 **Clements 1984** Clements JA, Critchley JA, Prescott LF. The role of sulphate conjugation in the metabolism and disposition of oral and intravenous paracetamol in man. Br J Clin Pharmacol. 1984 Oct;18(4):481-5. doi: 10.1111/j.1365-2125.1984.tb02495.x.
