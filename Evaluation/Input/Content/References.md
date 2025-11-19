@@ -1,4 +1,4 @@
-**Albert 1974** Albert KS, Sedman AJ, Wagner JG. Albert KS, Sedman AJ, Wilkinson P, Stoll RG, Murray WJ, Wagner JG. Bioavailability studies of acetaminophen and nitrofurantoin. J Clin Pharmacol. 1974 May-Jun;14(5-6):264-70. doi: 10.1002/j.1552-4604.1974.tb02312.x. 
+**Albert 1974** Albert KS, Sedman AJ, Wilkinson P, Stoll RG, Murray WJ, Wagner JG. Bioavailability studies of acetaminophen and nitrofurantoin. J Clin Pharmacol. 1974 May-Jun;14(5-6):264-70. doi: 10.1002/j.1552-4604.1974.tb02312.x. 
 
 **Ameer 1983** Ameer B, Divoll M, Abernethy DR, Greenblatt DJ, Shargel L. Absolute and relative bioavailability of oral acetaminophen preparations. J Pharm Sci. 1983 Aug;72(8):955-8. doi: 10.1002/jps.2600720832. 
 
